@@ -2,7 +2,7 @@
   "name": "gtasa-savegame-editor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lfuelling.github.io/gtasa-savegame-editor",
+  "homepage": "https://gtasa-savegame-editor.github.io/docs",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
