@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
+import PropTypes from "prop-types";
+import Legend from "./content/legend";
 
 class Nav extends Component {
     render() {
@@ -43,11 +45,16 @@ class Nav extends Component {
                     <li><NavLink activeClassName={"active"} to={"/locations"}>locations</NavLink></li>
                     <li><NavLink activeClassName={"active"} to={"/savehouses"}>savehouses</NavLink></li>
                     <li><NavLink activeClassName={"active"} to={"/map"}>map</NavLink></li>
-                    <li><NavLink activeClassName={"active"} to={"/legend"}>legend</NavLink></li>
+                    <li><Link onClick={this.props.toggleLegend} className={(this.props.legendOpen) ? 'open' : ''} to={"#"}>legend</Link></li>
                 </ul>
             </div>
         );
     }
 }
+
+Nav.propTypes = {
+    legendOpen: PropTypes.bool.required,
+    toggleLegend: PropTypes.func.required
+};
 
 export default Nav;

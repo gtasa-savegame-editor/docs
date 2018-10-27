@@ -30,6 +30,9 @@ body {
 #toc a.active {
   background: #DDDDDD;
 }
+#toc a.open {
+    background: #EEEEEE;
+}
 
 #content {
   padding: 3px 20px 0 194px;
@@ -159,4 +162,16 @@ img.icon {
 
 dl > dt {
   font-weight: 800;
+}
+
+.legend {
+    display: block;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+}
+
+.legend tr:first-child,
+.legend tr td:nth-child(2) {
+    background: #ffffff;
 }

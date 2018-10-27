@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import {Route} from "react-router-dom";
 import Overview from "./components/content/overview";
@@ -42,51 +42,64 @@ import Map from "./components/content/map";
 import Legend from "./components/content/legend";
 
 class App extends Component {
-  render() {
-    return (
-        <div id={"content"}>
-          <Nav/>
-          <Route exact={true} path={"/"} component={Overview} />
-          <Route path={"/block00"} component={Block00} />
-          <Route path={"/block01"} component={Block01} />
-          <Route path={"/block02"} component={Block02} />
-          <Route path={"/block03"} component={Block03} />
-          <Route path={"/block04"} component={Block04} />
-          <Route path={"/block05"} component={Block05} />
-          <Route path={"/block06"} component={Block06} />
-          <Route path={"/block08"} component={Block08} />
-          <Route path={"/block09"} component={Block09} />
-          <Route path={"/block10"} component={Block10} />
-          <Route path={"/block11"} component={Block11} />
-          <Route path={"/block12"} component={Block12} />
-          <Route path={"/block15"} component={Block15} />
-          <Route path={"/block16"} component={Block16} />
-          <Route path={"/block17"} component={Block17} />
-          <Route path={"/block18"} component={Block18} />
-          <Route path={"/block19"} component={Block19} />
-          <Route path={"/block20"} component={Block20} />
-          <Route path={"/block21"} component={Block21} />
-          <Route path={"/block22"} component={Block22} />
-          <Route path={"/block23"} component={Block23} />
-          <Route path={"/block24"} component={Block24} />
-          <Route path={"/block25"} component={Block25} />
-          <Route path={"/block26"} component={Block26} />
-          <Route path={"/block27"} component={Block27} />
-          <Route path={"/block30"} component={Block30} />
-          <Route path={"/threads"} component={Threads} />
-          <Route path={"/weapons"} component={Weapons} />
-          <Route path={"/pickups"} component={Pickups} />
-          <Route path={"/sprites"} component={Sprites} />
-          <Route path={"/vcolors"} component={VehicleColors} />
-          <Route path={"/vtypes"} component={VehicleTypes} />
-          <Route path={"/vmods"} component={VehicleMods} />
-          <Route path={"/locations"} component={Locations} />
-          <Route path={"/savehouses"} component={Savehouses} />
-          <Route path={"/map"} component={Map} />
-          <Route path={"/legend"} component={Legend} />
-        </div>
-    );
-  }
+
+    state = {
+        legendOpen: false,
+    };
+
+    closeLegend = () => {
+        this.setState({legendOpen: false});
+    };
+
+    toggleLegend = () => {
+        this.setState({legendOpen: !this.state.legendOpen});
+    };
+
+    render() {
+        return (
+            <div id={"content"}>
+                <Nav legendOpen={this.state.legendOpen} toggleLegend={this.toggleLegend} />
+                <Legend closeLegend={this.closeLegend} visible={this.state.legendOpen} />
+                <Route exact={true} path={"/"} component={Overview}/>
+                <Route path={"/block00"} component={Block00}/>
+                <Route path={"/block01"} component={Block01}/>
+                <Route path={"/block02"} component={Block02}/>
+                <Route path={"/block03"} component={Block03}/>
+                <Route path={"/block04"} component={Block04}/>
+                <Route path={"/block05"} component={Block05}/>
+                <Route path={"/block06"} component={Block06}/>
+                <Route path={"/block08"} component={Block08}/>
+                <Route path={"/block09"} component={Block09}/>
+                <Route path={"/block10"} component={Block10}/>
+                <Route path={"/block11"} component={Block11}/>
+                <Route path={"/block12"} component={Block12}/>
+                <Route path={"/block15"} component={Block15}/>
+                <Route path={"/block16"} component={Block16}/>
+                <Route path={"/block17"} component={Block17}/>
+                <Route path={"/block18"} component={Block18}/>
+                <Route path={"/block19"} component={Block19}/>
+                <Route path={"/block20"} component={Block20}/>
+                <Route path={"/block21"} component={Block21}/>
+                <Route path={"/block22"} component={Block22}/>
+                <Route path={"/block23"} component={Block23}/>
+                <Route path={"/block24"} component={Block24}/>
+                <Route path={"/block25"} component={Block25}/>
+                <Route path={"/block26"} component={Block26}/>
+                <Route path={"/block27"} component={Block27}/>
+                <Route path={"/block30"} component={Block30}/>
+                <Route path={"/threads"} component={Threads}/>
+                <Route path={"/weapons"} component={Weapons}/>
+                <Route path={"/pickups"} component={Pickups}/>
+                <Route path={"/sprites"} component={Sprites}/>
+                <Route path={"/vcolors"} component={VehicleColors}/>
+                <Route path={"/vtypes"} component={VehicleTypes}/>
+                <Route path={"/vmods"} component={VehicleMods}/>
+                <Route path={"/locations"} component={Locations}/>
+                <Route path={"/savehouses"} component={Savehouses}/>
+                <Route path={"/map"} component={Map}/>
+            </div>
+        );
+    }
 }
 
 export default App;
