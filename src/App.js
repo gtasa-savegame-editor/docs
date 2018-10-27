@@ -46,7 +46,7 @@ class App extends Component {
     return (
         <div id={"content"}>
           <Nav/>
-          <Route path={"/overview"} component={Overview} />
+          <Route exact={true} path={"/"} component={Overview} />
           <Route path={"/block00"} component={Block00} />
           <Route path={"/block01"} component={Block01} />
           <Route path={"/block02"} component={Block02} />

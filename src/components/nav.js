@@ -6,7 +6,7 @@ class Nav extends Component {
         return (
             <div>
                 <ul id="toc">
-                    <li><NavLink activeClassName={"active"} to={"/overview"}>overview</NavLink><p/></li>
+                    <li><NavLink activeClassName={"active"} exact={true} to={"/"}>overview</NavLink><p/></li>
                     <li><NavLink activeClassName={"active"} to={"/block00"}>block 00</NavLink></li>
                     <li><NavLink activeClassName={"active"} to={"/block01"}>block 01</NavLink></li>
                     <li><NavLink activeClassName={"active"} to={"/block02"}>block 02</NavLink></li>
