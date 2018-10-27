@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana;
+  font-family: Verdana, serif;
   margin: 0;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 #content {
-  padding: 3px 20px 0px 194px;
+  padding: 3px 20px 0 194px;
   font-size: 10pt;
 }
 
@@ -155,4 +155,8 @@ img.icon {
   width: 16px;
   height: 16px;
   vertical-align: bottom;
+}
+
+dl > dt {
+  font-weight: 800;
 }

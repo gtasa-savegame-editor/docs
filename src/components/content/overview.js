@@ -5,13 +5,41 @@ class Overview extends Component {
         return (
             <div>
                 <div className="section">
-                    Also, a lot of documentation can be found <a
-                    href="http://www.gtamodding.com/index.php?title=Saves_%28GTA_SA%29">here at gtamodding.com</a>.<br/>
-                    <br/>
-                    The savegame files are stored in the files "<code>&lt;my documents&gt;\GTA San Andreas User
-                    Files\GTASAsf<i>n</i>.b</code>" with <code><i>n</i></code> from 1 to 8.<br/>
-                    The location of the my documents folder can be found in the Windows registry key "<code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell
-                    Folders\Personal</code>".<br/>
+                    A lot of further documentation can be found at:
+
+                    <ul>
+                        <li><a href="http://www.gtamodding.com/index.php?title=Saves_%28GTA_SA%29">gtamodding.com
+                            (<abbr title="Currently down.">⚠</abbr>)</a></li>
+                        <li><a href="https://gta.fandom.com/wiki/Category:GTA_San_Andreas">fandom.com</a></li>
+                        <li><a href="https://www.grandtheftwiki.com/Category:GTA_San_Andreas">grandtheftwiki.com</a></li>
+                    </ul>
+                    <hr/>
+                    <h2>Savegame Locations</h2>
+                    <p>The savegame files are stored in files named <code>GTASAsf<b><i>n</i></b>.b</code> with <code><b><i>n</i></b></code> from 1 to 8.</p>
+                    <dl>
+                        <dt>Windows</dt>
+                        <dd><code>%UserProfile%\My Documents\GTA San Andreas User Files</code></dd>
+                        <dt>macOS <i>(Steam)</i></dt>
+                        <dd><code>$HOME/Documents/Rockstar Games/GTA San Andreas User Files</code></dd>
+                        <dt>Linux <i>(Steam Play)</i></dt>
+                        <dd><code>$HOME/.steam/steam/steamapps/compatdata/12120/pfx/drive_c/users/steamuser/My
+                            Documents/GTA San Andreas User Files</code></dd>
+                    </dl>
+                    <p>The location of the my documents folder can also be found in the Windows registry key "<code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell
+                        Folders\Personal</code>".</p>
+                </div>
+                <div className="section">
+                    <h2>Savegame layout</h2>
+                    <ol>
+                        <li>Block 0 to 29 (inclusive)</li>
+                        <li>Block 15, 16 and 17</li>
+                        <li>Block 30</li>
+                        <li>A 4-byte integer with the sum of all the preceding bytes</li>
+                    </ol>
+                    <p>
+                        Before every block in the file is the ascii string "BLOCK", so the file contains 34 times
+                        "BLOCK".
+                    </p>
                     <table>
                         <tbody>
                         <tr>
@@ -176,19 +204,6 @@ class Overview extends Component {
                         </tr>
                         </tbody>
                     </table>
-                </div>
-                <div className="section">
-                    <h2>Savegame layout</h2>
-                    <ol>
-                        <li>Block 0 to 29 (inclusive)</li>
-                        <li>Block 15, 16 and 17</li>
-                        <li>Block 30</li>
-                        <li>A 4-byte integer with the sum of all the preceding bytes</li>
-                    </ol>
-                    <p>
-                        Before every block in the file is the ascii string "BLOCK", so the file contains 34 times
-                        "BLOCK".
-                    </p>
                 </div>
             </div>
         );
