@@ -1,5 +1,28 @@
 import React, {Component} from 'react';
 
+import icon01 from '../../../icon/01.gif';
+import icon05 from '../../../icon/05.gif';
+import icon08 from '../../../icon/08.gif';
+import icon0C from '../../../icon/0C.gif';
+import icon0D from '../../../icon/0D.gif';
+import icon0F from '../../../icon/0F.gif';
+import icon10 from '../../../icon/10.gif';
+import icon17 from '../../../icon/17.gif';
+import icon18 from '../../../icon/18.gif';
+import icon19 from '../../../icon/19.gif';
+import icon1C from '../../../icon/1C.gif';
+import icon22 from '../../../icon/22.gif';
+import icon24 from '../../../icon/24.gif';
+import icon25 from '../../../icon/25.gif';
+import icon26 from '../../../icon/26.gif';
+import icon28 from '../../../icon/28.gif';
+import icon2A from '../../../icon/2A.gif';
+import icon2B from '../../../icon/2B.gif';
+import icon2C from '../../../icon/2C.gif';
+import icon2E from '../../../icon/2E.gif';
+import icon2F from '../../../icon/2F.gif';
+import icon34 from '../../../icon/34.gif';
+
 class Block01
     extends Component {
     render() {
@@ -24,282 +47,282 @@ class Block01
                             <tr>
                                 <td className="int" rowSpan={2}>0704</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0F.gif"} className="icon" /> Big Smoke</td>
+                                <td><img src={icon0F} className="icon" /> Big Smoke</td>
                                 <td rowSpan={2}>int</td><td className="center" rowSpan={2}>06E0</td>
                                 <td>00F41B45 5AECD2C4 EA3E5841</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/22.gif"} className="icon" /> Ryder</td><td>CDB81945 00F8D2C4 C3F54841</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon22} className="icon" /> Ryder</td><td>CDB81945 00F8D2C4 C3F54841</td></tr>
                             <tr>
                                 <td className="int" rowSpan={9}>0714</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/26.gif"} className="icon" /> Tagging up Turf</td>
+                                <td><img src={icon26} className="icon" /> Tagging up Turf</td>
                                 <td rowSpan={9}>sweet</td><td className="center" rowSpan={9}>06D0</td>
                                 <td rowSpan={7}>1F311D45 5C3FD1C4 295C4B41</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/26.gif"} className="icon" /> Cleaning The Hood</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/26.gif"} className="icon" /> Drive-thru</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/26.gif"} className="icon" /> Nines and AK's</td></tr>
-                            <tr><td className="center">04</td><td><img src={"icon/26.gif"} className="icon" /> Drive-By</td></tr>
-                            <tr><td className="center">05</td><td><img src={"icon/26.gif"} className="icon" /> Sweet's Girl</td></tr>
-                            <tr><td className="center">06</td><td><img src={"icon/26.gif"} className="icon" /> Cesar Vialpando</td></tr>
-                            <tr><td className="center">07</td><td><img src={"icon/26.gif"} className="icon" /> Doberman</td><td>06A8AA44 D703A0C4 1AC04841</td></tr>
-                            <tr><td className="center">08</td><td><img src={"icon/26.gif"} className="icon" /> Los Sepulcros</td><td>1F311D45 5C3FD1C4 295C4B41</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon26} className="icon" /> Cleaning The Hood</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon26} className="icon" /> Drive-thru</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon26} className="icon" /> Nines and AK's</td></tr>
+                            <tr><td className="center">04</td><td><img src={icon26} className="icon" /> Drive-By</td></tr>
+                            <tr><td className="center">05</td><td><img src={icon26} className="icon" /> Sweet's Girl</td></tr>
+                            <tr><td className="center">06</td><td><img src={icon26} className="icon" /> Cesar Vialpando</td></tr>
+                            <tr><td className="center">07</td><td><img src={icon26} className="icon" /> Doberman</td><td>06A8AA44 D703A0C4 1AC04841</td></tr>
+                            <tr><td className="center">08</td><td><img src={icon26} className="icon" /> Los Sepulcros</td><td>1F311D45 5C3FD1C4 295C4B41</td></tr>
                             <tr>
                                 <td className="int" rowSpan={3}>0718</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/22.gif"} className="icon" /> Home Invasion</td>
+                                <td><img src={icon22} className="icon" /> Home Invasion</td>
                                 <td rowSpan={3}>ryder</td><td className="center" rowSpan={3}>06D4</td>
                                 <td rowSpan={3}>CDB81945 00F8D2C4 C3F54841</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/22.gif"} className="icon" /> Catalyst</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/22.gif"} className="icon" /> Robbing Uncle Sam</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon22} className="icon" /> Catalyst</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon22} className="icon" /> Robbing Uncle Sam</td></tr>
                             <tr>
                                 <td className="int" rowSpan={4}>071C</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/08.gif"} className="icon" /> OG Loc</td>
+                                <td><img src={icon08} className="icon" /> OG Loc</td>
                                 <td rowSpan={4}>smoke</td><td className="center" rowSpan={4}>06CC</td>
                                 <td rowSpan={4}>EC6D0145 52E0D4C4 CDCC4841</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/08.gif"} className="icon" /> Running Dog</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/08.gif"} className="icon" /> Wrong Side of the Tracks</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/08.gif"} className="icon" /> Just Business</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon08} className="icon" /> Running Dog</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon08} className="icon" /> Wrong Side of the Tracks</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon08} className="icon" /> Just Business</td></tr>
                             <tr>
                                 <td className="int" rowSpan={5}>0720</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/1C.gif"} className="icon" /> Life's a Beach</td>
+                                <td><img src={icon1C} className="icon" /> Life's a Beach</td>
                                 <td rowSpan={5}>strap</td><td className="center" rowSpan={5}>06D8</td>
                                 <td rowSpan={4}>8FA24544 1F7DCBC4 713D4641</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/1C.gif"} className="icon" /> Madd Dogg's Rhymes</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/1C.gif"} className="icon" /> Management Issues</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/1C.gif"} className="icon" /> House Party (prepare for party)</td></tr>
-                            <tr><td className="center">04</td><td><img src={"icon/1C.gif"} className="icon" /> House Party</td><td>C3691B45 712DCEC4 14AE4741</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon1C} className="icon" /> Madd Dogg's Rhymes</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon1C} className="icon" /> Management Issues</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon1C} className="icon" /> House Party (prepare for party)</td></tr>
+                            <tr><td className="center">04</td><td><img src={icon1C} className="icon" /> House Party</td><td>C3691B45 712DCEC4 14AE4741</td></tr>
                             <tr>
                                 <td className="int" rowSpan={2}>0724</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/10.gif"} className="icon" /> Burning Desire</td>
+                                <td><img src={icon10} className="icon" /> Burning Desire</td>
                                 <td rowSpan={2}>crash</td><td className="center" rowSpan={2}>06DC</td>
                                 <td rowSpan={2}>335B8244 D753A7C4 CDCC4841</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/10.gif"} className="icon" /> Gray Imports</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon10} className="icon" /> Gray Imports</td></tr>
                             <tr>
                                 <td className="int">0728</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0D.gif"} className="icon" /> High Stakes, Low-rider</td>
+                                <td><img src={icon0D} className="icon" /> High Stakes, Low-rider</td>
                                 <td>cesar</td><td className="center">06E4</td>
                                 <td>8F22E144 B85E04C5 C3F54841</td>
                             </tr>
                             <tr>
                                 <td className="int" rowSpan={2}>072C</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/26.gif"} className="icon" /> Reuniting the Families</td>
+                                <td><img src={icon26} className="icon" /> Reuniting the Families</td>
                                 <td rowSpan={2}>la1fin</td><td className="center" rowSpan={2}>06D0</td>
                                 <td rowSpan={2}>1F311D45 5C3FD1C4 295C4B41</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/26.gif"} className="icon" /> The Green Sabre</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon26} className="icon" /> The Green Sabre</td></tr>
                             <tr>
                                 <td className="int" rowSpan={2}>07B0</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/28.gif"} className="icon" /> Body Harvest</td>
+                                <td><img src={icon28} className="icon" /> Body Harvest</td>
                                 <td rowSpan={2}>tru</td><td className="center" rowSpan={2}>079C</td>
                                 <td>EA6D09C5 3D530DC5 9C22ED41</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/28.gif"} className="icon" /> Are you going to San Fierro?</td><td>C6A066C4 A5ECD6C4 FE239942</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon28} className="icon" /> Are you going to San Fierro?</td><td>C6A066C4 A5ECD6C4 FE239942</td></tr>
                             <tr>
                                 <td className="int" rowSpan={2}>07B4</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0D.gif"} className="icon" /> Wu Zi Mu</td>
+                                <td><img src={icon0D} className="icon" /> Wu Zi Mu</td>
                                 <td rowSpan={2}>bcesar</td><td className="center" rowSpan={2}>0798</td>
                                 <td>F818C244 60361D42 F027B941</td>
                             </tr>
-                            <tr><td className="center">05</td><td><img src={"icon/0D.gif"} className="icon" /> Farewell, my love...</td><td>E17B00C4 62503CC3 78EB9A42</td></tr>
+                            <tr><td className="center">05</td><td><img src={icon0D} className="icon" /> Farewell, my love...</td><td>E17B00C4 62503CC3 78EB9A42</td></tr>
                             <tr>
                                 <td className="int">07B8</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/10.gif"} className="icon" /> Badlands</td>
+                                <td><img src={icon10} className="icon" /> Badlands</td>
                                 <td>bcrash</td><td className="center">0794</td>
                                 <td>E16AFFC4 D7DF1DC5 C3F5EC41</td>
                             </tr>
                             <tr>
                                 <td className="int" rowSpan={2}>0878</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0F.gif"} className="icon" /> Wear Flowers in your Hair</td>
+                                <td><img src={icon0F} className="icon" /> Wear Flowers in your Hair</td>
                                 <td rowSpan={2}>garage</td><td className="center" rowSpan={2}>0858</td>
                                 <td rowSpan={2}>DCCCFDC4 F1D31443 ECAFDE41</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/0F.gif"} className="icon" /> Deconstruction</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon0F} className="icon" /> Deconstruction</td></tr>
                             <tr>
                                 <td className="int" rowSpan={3}>087C</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/2F.gif"} className="icon" /> Air Raid</td>
+                                <td><img src={icon2F} className="icon" /> Air Raid</td>
                                 <td rowSpan={3}>zero</td><td className="center" rowSpan={3}>0840</td>
                                 <td>EC390CC5 33330543 33330B42</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/2F.gif"} className="icon" /> Supply Lines...</td><td rowSpan={2}>9C5A0CC5 8FE30043 FD470942</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/2F.gif"} className="icon" /> New Model Army</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon2F} className="icon" /> Supply Lines...</td><td rowSpan={2}>9C5A0CC5 8FE30043 FD470942</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon2F} className="icon" /> New Model Army</td></tr>
                             <tr>
                                 <td className="int" rowSpan={5}>0880</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/2E.gif"} className="icon" /> Mountain Cloud Boys</td>
+                                <td><img src={icon2E} className="icon" /> Mountain Cloud Boys</td>
                                 <td rowSpan={5}>wuzi</td><td className="center" rowSpan={5}>0834</td>
                                 <td rowSpan={5}>54A306C5 CE542144 0A684D42</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/2E.gif"} className="icon" /> Ran Fa Li</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/2E.gif"} className="icon" /> Lure</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/2E.gif"} className="icon" /> Amphibious Assault</td></tr>
-                            <tr><td className="center">04</td><td><img src={"icon/2E.gif"} className="icon" /> The Da Nang Thang</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon2E} className="icon" /> Ran Fa Li</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon2E} className="icon" /> Lure</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon2E} className="icon" /> Amphibious Assault</td></tr>
+                            <tr><td className="center">04</td><td><img src={icon2E} className="icon" /> The Da Nang Thang</td></tr>
                             <tr>
                                 <td className="int" rowSpan={4}>0884</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0D.gif"} className="icon" /> Zeroing In</td>
+                                <td><img src={icon0D} className="icon" /> Zeroing In</td>
                                 <td rowSpan={4}>steal</td><td className="center" rowSpan={4}>0838</td>
                                 <td rowSpan={4}>5CE8FDC4 B13F3343 ECAFDE41</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/0D.gif"} className="icon" /> Test Drive</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/0D.gif"} className="icon" /> Customs Fast Track</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/0D.gif"} className="icon" /> Puncture Wounds</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon0D} className="icon" /> Test Drive</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon0D} className="icon" /> Customs Fast Track</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon0D} className="icon" /> Puncture Wounds</td></tr>
                             <tr>
                                 <td className="int" rowSpan={10}>0888</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/2B.gif"} className="icon" /> Photo Opportunity</td>
+                                <td><img src={icon2B} className="icon" /> Photo Opportunity</td>
                                 <td rowSpan={10}>synd</td><td className="center" rowSpan={10}>0858</td>
                                 <td rowSpan={2}>DCCCFDC4 F1D31443 ECAFDE41</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/2B.gif"} className="icon" /> Jizzy (only a cutscene)</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/17.gif"} className="icon" /> Jizzy</td><td rowSpan={3}>F4F723C5 20B5AF44 4F40C340</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/17.gif"} className="icon" /> T-Bone Mendez</td></tr>
-                            <tr><td className="center">04</td><td><img src={"icon/17.gif"} className="icon" /> Mike Toreno</td></tr>
-                            <tr><td className="center">05</td><td><img src={"icon/2B.gif"} className="icon" /> Outrider</td><td rowSpan={2}>DCCCFDC4 F1D31443 ECAFDE41</td></tr>
-                            <tr><td className="center">06</td><td><img src={"icon/2B.gif"} className="icon" /> Ice Cold Killa</td></tr>
-                            <tr><td className="center">07</td><td><img src={"icon/2B.gif"} className="icon" /> Pier 69</td><td>9AA1D6C4 1F1DA044 295CC740</td></tr>
-                            <tr><td className="center">08</td><td><img src={"icon/2B.gif"} className="icon" /> Toreno's Last Flight</td><td rowSpan={4}>DCCCFDC4 F1D31443 ECAFDE41</td></tr>
-                            <tr><td className="center">09</td><td><img src={"icon/2B.gif"} className="icon" /> Yay Ka-Boom-Boom</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon2B} className="icon" /> Jizzy (only a cutscene)</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon17} className="icon" /> Jizzy</td><td rowSpan={3}>F4F723C5 20B5AF44 4F40C340</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon17} className="icon" /> T-Bone Mendez</td></tr>
+                            <tr><td className="center">04</td><td><img src={icon17} className="icon" /> Mike Toreno</td></tr>
+                            <tr><td className="center">05</td><td><img src={icon2B} className="icon" /> Outrider</td><td rowSpan={2}>DCCCFDC4 F1D31443 ECAFDE41</td></tr>
+                            <tr><td className="center">06</td><td><img src={icon2B} className="icon" /> Ice Cold Killa</td></tr>
+                            <tr><td className="center">07</td><td><img src={icon2B} className="icon" /> Pier 69</td><td>9AA1D6C4 1F1DA044 295CC740</td></tr>
+                            <tr><td className="center">08</td><td><img src={icon2B} className="icon" /> Toreno's Last Flight</td><td rowSpan={4}>DCCCFDC4 F1D31443 ECAFDE41</td></tr>
+                            <tr><td className="center">09</td><td><img src={icon2B} className="icon" /> Yay Ka-Boom-Boom</td></tr>
                             <tr>
                                 <td className="int" rowSpan={2}>088C</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0F.gif"} className="icon" /> 555 WE TIP</td>
+                                <td><img src={icon0F} className="icon" /> 555 WE TIP</td>
                                 <td rowSpan={2}>scrash</td><td className="center" rowSpan={2}>0858</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/10.gif"} className="icon" /> Snail Trail</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon10} className="icon" /> Snail Trail</td></tr>
                             <tr>
                                 <td className="int">-</td>
                                 <td className="center">-</td>
-                                <td><img src={"icon/05.gif"} className="icon" /> (buy the airfield)</td>
+                                <td><img src={icon05} className="icon" /> (buy the airfield)</td>
                                 <td>buy3</td><td className="center">0918</td><td>66C6CF43 1F591E45 A4709941</td>
                             </tr>
                             <tr>
                                 <td className="int">-</td>
                                 <td className="center">-</td>
-                                <td><img src={"icon/24.gif"} className="icon" /> Learning to Fly</td>
+                                <td><img src={icon24} className="icon" /> Learning to Fly</td>
                                 <td>psch</td><td className="center">0944</td><td>66C6CF43 1F591E45 A4709941</td>
                             </tr>
                             <tr>
                                 <td className="int" rowSpan={9}>0948</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/25.gif"} className="icon" /> Monster</td>
+                                <td><img src={icon25} className="icon" /> Monster</td>
                                 <td rowSpan={9}>desert</td><td className="center" rowSpan={9}>0914</td>
                                 <td rowSpan={4}>CC4D2BC4 06CE6644 19733241</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/25.gif"} className="icon" /> Highjack</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/2A.gif"} className="icon" /> Interdiction</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/2A.gif"} className="icon" /> Verdant Meadows</td></tr>
-                            <tr><td className="center">04</td><td><img src={"icon/01.gif"} className="icon" /> (buy the airfield) / Learning to Fly</td><td /></tr>
-                            <tr><td className="center">05</td><td><img src={"icon/05.gif"} className="icon" /> N.O.E.</td><td rowSpan={4}>58B9A343 85211E45 D5E77C41</td></tr>
-                            <tr><td className="center">06</td><td><img src={"icon/05.gif"} className="icon" /> Stowaway</td></tr>
-                            <tr><td className="center">07</td><td><img src={"icon/05.gif"} className="icon" /> Black Project</td></tr>
-                            <tr><td className="center">08</td><td><img src={"icon/05.gif"} className="icon" /> Green Goo</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon25} className="icon" /> Highjack</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon2A} className="icon" /> Interdiction</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon2A} className="icon" /> Verdant Meadows</td></tr>
+                            <tr><td className="center">04</td><td><img src={icon01} className="icon" /> (buy the airfield) / Learning to Fly</td><td /></tr>
+                            <tr><td className="center">05</td><td><img src={icon05} className="icon" /> N.O.E.</td><td rowSpan={4}>58B9A343 85211E45 D5E77C41</td></tr>
+                            <tr><td className="center">06</td><td><img src={icon05} className="icon" /> Stowaway</td></tr>
+                            <tr><td className="center">07</td><td><img src={icon05} className="icon" /> Black Project</td></tr>
+                            <tr><td className="center">08</td><td><img src={icon05} className="icon" /> Green Goo</td></tr>
                             <tr>
                                 <td className="int" rowSpan={9}>0958</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/2C.gif"} className="icon" /> Fender Ketchup</td>
+                                <td><img src={icon2C} className="icon" /> Fender Ketchup</td>
                                 <td rowSpan={9}>casino</td><td className="center" rowSpan={9}>091C</td>
                                 <td rowSpan={3}>D04DF544 33AB7344 015E7844</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/2C.gif"} className="icon" /> Explosive Situation</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/2C.gif"} className="icon" /> You've had your Chips</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/2C.gif"} className="icon" /> Don Peyote</td><td>4A53FD44 0FEF7B44 D2001D41</td></tr>
-                            <tr><td className="center">04</td><td><img src={"icon/19.gif"} className="icon" /> Intensive Care</td><td rowSpan={2}>23EA0D45 2D73CC44 80D77B44</td></tr>
-                            <tr><td className="center">05</td><td><img src={"icon/19.gif"} className="icon" /> The Meat Business</td></tr>
-                            <tr><td className="center">06</td><td><img src={"icon/2C.gif"} className="icon" /> Fish in a Barrel</td><td>D04DF544 33AB7344 015E7844</td></tr>
-                            <tr><td className="center">07</td><td><img src={"icon/19.gif"} className="icon" /> Freefall</td><td rowSpan={2}>23EA0D45 2D73CC44 80D77B44</td></tr>
-                            <tr><td className="center">08</td><td><img src={"icon/19.gif"} className="icon" /> Saint Mark's Bistro</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon2C} className="icon" /> Explosive Situation</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon2C} className="icon" /> You've had your Chips</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon2C} className="icon" /> Don Peyote</td><td>4A53FD44 0FEF7B44 D2001D41</td></tr>
+                            <tr><td className="center">04</td><td><img src={icon19} className="icon" /> Intensive Care</td><td rowSpan={2}>23EA0D45 2D73CC44 80D77B44</td></tr>
+                            <tr><td className="center">05</td><td><img src={icon19} className="icon" /> The Meat Business</td></tr>
+                            <tr><td className="center">06</td><td><img src={icon2C} className="icon" /> Fish in a Barrel</td><td>D04DF544 33AB7344 015E7844</td></tr>
+                            <tr><td className="center">07</td><td><img src={icon19} className="icon" /> Freefall</td><td rowSpan={2}>23EA0D45 2D73CC44 80D77B44</td></tr>
+                            <tr><td className="center">08</td><td><img src={icon19} className="icon" /> Saint Mark's Bistro</td></tr>
                             <tr>
                                 <td className="int" rowSpan={2}>095C</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/10.gif"} className="icon" /> Misappropriation</td>
+                                <td><img src={icon10} className="icon" /> Misappropriation</td>
                                 <td rowSpan={2}>vcrash</td><td className="center" rowSpan={2}>0920</td>
                                 <td>D5D1C744 46BD2645 F31F1D41</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/10.gif"} className="icon" /> High Noon</td><td>3B61BDC3 C0BD0B45 17B72542</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon10} className="icon" /> High Noon</td><td>3B61BDC3 C0BD0B45 17B72542</td></tr>
                             <tr>
                                 <td className="int">0960</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/18.gif"} className="icon" /> Madd Dogg</td>
+                                <td><img src={icon18} className="icon" /> Madd Dogg</td>
                                 <td>doc</td><td className="center">0924</td>
                                 <td>00A00245 0060B544 CDCC1C41</td>
                             </tr>
                             <tr>
                                 <td className="int" rowSpan={6}>0964</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/34.gif"} className="icon" /> Architectural Espionage</td>
+                                <td><img src={icon34} className="icon" /> Architectural Espionage</td>
                                 <td rowSpan={6}>heist</td><td className="center" rowSpan={6}>0950</td>
                                 <td rowSpan={6}>C04CF544 CB9E8444 015E7844</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/34.gif"} className="icon" /> Key to her Heart</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/34.gif"} className="icon" /> Dam and Blast</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/34.gif"} className="icon" /> Cop Wheels</td></tr>
-                            <tr><td className="center">04</td><td><img src={"icon/34.gif"} className="icon" /> Up, Up and Away!</td></tr>
-                            <tr><td className="center">05</td><td><img src={"icon/34.gif"} className="icon" /> Breaking the Bank at Caligula's</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon34} className="icon" /> Key to her Heart</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon34} className="icon" /> Dam and Blast</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon34} className="icon" /> Cop Wheels</td></tr>
+                            <tr><td className="center">04</td><td><img src={icon34} className="icon" /> Up, Up and Away!</td></tr>
+                            <tr><td className="center">05</td><td><img src={icon34} className="icon" /> Breaking the Bank at Caligula's</td></tr>
                             <tr>
                                 <td className="int" rowSpan={4}>09CC</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/2C.gif"} className="icon" /> A Home In The Hills</td>
+                                <td><img src={icon2C} className="icon" /> A Home In The Hills</td>
                                 <td rowSpan={4}>mansion</td><td className="center" rowSpan={4}>091C</td>
                                 <td>D04DF5443 3AB7344 015E7844</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/0F.gif"} className="icon" /> Vertical Bird</td><td rowSpan={3}>37B99C44 9A5044C4 0710B642</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/0F.gif"} className="icon" /> Home Coming</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/0F.gif"} className="icon" /> Cut Throat Business</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon0F} className="icon" /> Vertical Bird</td><td rowSpan={3}>37B99C44 9A5044C4 0710B642</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon0F} className="icon" /> Home Coming</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon0F} className="icon" /> Cut Throat Business</td></tr>
                             <tr>
                                 <td className="int" rowSpan={2}>09D0</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/26.gif"} className="icon" /> Beat Down on B Dup</td>
+                                <td><img src={icon26} className="icon" /> Beat Down on B Dup</td>
                                 <td rowSpan={2}>grove</td><td className="center" rowSpan={2}>09C0</td>
                                 <td>6EF31B45 F4E0D2C4 FB3A4841</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/26.gif"} className="icon" /> Grove 4 Life</td><td>1F311D45 5C3FD1C4 295C4B41</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon26} className="icon" /> Grove 4 Life</td><td>1F311D45 5C3FD1C4 295C4B41</td></tr>
                             <tr>
                                 <td className="int" rowSpan={5}>09D8</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0F.gif"} className="icon" /> Riot</td>
+                                <td><img src={icon0F} className="icon" /> Riot</td>
                                 <td rowSpan={5}>riot</td><td className="center">09BC</td>
                                 <td>37B99C44 9A5044C4 0710B642</td>
                             </tr>
-                            <tr><td className="center">01</td><td><img src={"icon/26.gif"} className="icon" /> Los Desperados</td><td className="center" rowSpan={4}>06D0</td><td rowSpan={4}>1F311D45 5C3FD1C4 295C4B41</td></tr>
-                            <tr><td className="center">02</td><td><img src={"icon/26.gif"} className="icon" /> End Of The Line</td></tr>
-                            <tr><td className="center">03</td><td><img src={"icon/26.gif"} className="icon" /> End Of The Line (escape from the building)</td></tr>
-                            <tr><td className="center">04</td><td><img src={"icon/26.gif"} className="icon" /> End Of The Line (follow Tenpenny)</td></tr>
+                            <tr><td className="center">01</td><td><img src={icon26} className="icon" /> Los Desperados</td><td className="center" rowSpan={4}>06D0</td><td rowSpan={4}>1F311D45 5C3FD1C4 295C4B41</td></tr>
+                            <tr><td className="center">02</td><td><img src={icon26} className="icon" /> End Of The Line</td></tr>
+                            <tr><td className="center">03</td><td><img src={icon26} className="icon" /> End Of The Line (escape from the building)</td></tr>
+                            <tr><td className="center">04</td><td><img src={icon26} className="icon" /> End Of The Line (follow Tenpenny)</td></tr>
                             <tr>
                                 <td className="int">0B2C</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0C.gif"} className="icon" /> Local Liquor Store</td>
+                                <td><img src={icon0C} className="icon" /> Local Liquor Store</td>
                                 <td rowSpan={4}>cat</td><td className="center" rowSpan={4}>0790</td>
                                 <td rowSpan={4}>7E155944 576CECC1 764F7942</td>
                             </tr>
                             <tr>
                                 <td className="int">0B30</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0C.gif"} className="icon" /> Small Town Bank</td>
+                                <td><img src={icon0C} className="icon" /> Small Town Bank</td>
                             </tr>
                             <tr>
                                 <td className="int">0B34</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0C.gif"} className="icon" /> Tanker Commander</td>
+                                <td><img src={icon0C} className="icon" /> Tanker Commander</td>
                             </tr>
                             <tr>
                                 <td className="int">0B38</td>
                                 <td className="center">00</td>
-                                <td><img src={"icon/0C.gif"} className="icon" /> Against All Odds</td>
+                                <td><img src={icon0C} className="icon" /> Against All Odds</td>
                             </tr>
                             </tbody></table>
                         <ul>
