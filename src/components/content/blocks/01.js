@@ -1,25 +1,25 @@
-import React, { Component } from "react";
-import icon05 from "../../../icon/05.gif";
-import icon08 from "../../../icon/08.gif";
-import icon0C from "../../../icon/0C.gif";
-import icon0D from "../../../icon/0D.gif";
-import icon0F from "../../../icon/0F.gif";
-import icon10 from "../../../icon/10.gif";
-import icon17 from "../../../icon/17.gif";
-import icon18 from "../../../icon/18.gif";
-import icon19 from "../../../icon/19.gif";
-import icon1C from "../../../icon/1C.gif";
-import icon22 from "../../../icon/22.gif";
-import icon24 from "../../../icon/24.gif";
-import icon25 from "../../../icon/25.gif";
-import icon26 from "../../../icon/26.gif";
-import icon28 from "../../../icon/28.gif";
-import icon2A from "../../../icon/2A.gif";
-import icon2B from "../../../icon/2B.gif";
-import icon2C from "../../../icon/2C.gif";
-import icon2E from "../../../icon/2E.gif";
-import icon2F from "../../../icon/2F.gif";
-import icon34 from "../../../icon/34.gif";
+import React, { Component } from 'react';
+import icon05 from '../../../icon/05.gif';
+import icon08 from '../../../icon/08.gif';
+import icon0C from '../../../icon/0C.gif';
+import icon0D from '../../../icon/0D.gif';
+import icon0F from '../../../icon/0F.gif';
+import icon10 from '../../../icon/10.gif';
+import icon17 from '../../../icon/17.gif';
+import icon18 from '../../../icon/18.gif';
+import icon19 from '../../../icon/19.gif';
+import icon1C from '../../../icon/1C.gif';
+import icon22 from '../../../icon/22.gif';
+import icon24 from '../../../icon/24.gif';
+import icon25 from '../../../icon/25.gif';
+import icon26 from '../../../icon/26.gif';
+import icon28 from '../../../icon/28.gif';
+import icon2A from '../../../icon/2A.gif';
+import icon2B from '../../../icon/2B.gif';
+import icon2C from '../../../icon/2C.gif';
+import icon2E from '../../../icon/2E.gif';
+import icon2F from '../../../icon/2F.gif';
+import icon34 from '../../../icon/34.gif';
 
 class Block01 extends Component {
   render() {
@@ -30,7 +30,8 @@ class Block01 extends Component {
             <h2>Missions</h2>
             <p>
               The bytes in the following table indicate what mission you are
-              going to do.<br />
+              going to do.
+              <br />
               After you played the mission, the byte will be increased by one.
             </p>
             <table>
@@ -49,7 +50,7 @@ class Block01 extends Component {
                   </td>
                   <td className="center">00</td>
                   <td>
-                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{" "}
+                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{' '}
                     Big Smoke
                   </td>
                   <td rowSpan={2}>int</td>
@@ -65,7 +66,7 @@ class Block01 extends Component {
                       src={icon22}
                       alt="Mission Icon: Ryder"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Ryder
                   </td>
                   <td>CDB81945 00F8D2C4 C3F54841</td>
@@ -80,7 +81,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Tagging up Turf
                   </td>
                   <td rowSpan={9}>sweet</td>
@@ -96,7 +97,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Cleaning The Hood
                   </td>
                 </tr>
@@ -107,7 +108,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Drive-thru
                   </td>
                 </tr>
@@ -118,7 +119,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Nines and AK's
                   </td>
                 </tr>
@@ -129,7 +130,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Drive-By
                   </td>
                 </tr>
@@ -140,7 +141,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Sweet's Girl
                   </td>
                 </tr>
@@ -151,7 +152,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Cesar Vialpando
                   </td>
                 </tr>
@@ -162,7 +163,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Doberman
                   </td>
                   <td>06A8AA44 D703A0C4 1AC04841</td>
@@ -174,7 +175,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Los Sepulcros
                   </td>
                   <td>1F311D45 5C3FD1C4 295C4B41</td>
@@ -189,7 +190,7 @@ class Block01 extends Component {
                       src={icon22}
                       alt="Mission Icon: Ryder"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Home Invasion
                   </td>
                   <td rowSpan={3}>ryder</td>
@@ -205,7 +206,7 @@ class Block01 extends Component {
                       src={icon22}
                       alt="Mission Icon: Ryder"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Catalyst
                   </td>
                 </tr>
@@ -216,7 +217,7 @@ class Block01 extends Component {
                       src={icon22}
                       alt="Mission Icon: Ryder"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Robbing Uncle Sam
                   </td>
                 </tr>
@@ -230,7 +231,7 @@ class Block01 extends Component {
                       src={icon08}
                       alt="Mission Icon: Big Smoke"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     OG Loc
                   </td>
                   <td rowSpan={4}>smoke</td>
@@ -246,7 +247,7 @@ class Block01 extends Component {
                       src={icon08}
                       alt="Mission Icon: Big Smoke"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Running Dog
                   </td>
                 </tr>
@@ -257,7 +258,7 @@ class Block01 extends Component {
                       src={icon08}
                       alt="Mission Icon: Big Smoke"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Wrong Side of the Tracks
                   </td>
                 </tr>
@@ -268,7 +269,7 @@ class Block01 extends Component {
                       src={icon08}
                       alt="Mission Icon: Big Smoke"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Just Business
                   </td>
                 </tr>
@@ -282,7 +283,7 @@ class Block01 extends Component {
                       src={icon1C}
                       alt="Mission Icon: OG Loc"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Life's a Beach
                   </td>
                   <td rowSpan={5}>strap</td>
@@ -298,7 +299,7 @@ class Block01 extends Component {
                       src={icon1C}
                       alt="Mission Icon: OG Loc"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Madd Dogg's Rhymes
                   </td>
                 </tr>
@@ -309,7 +310,7 @@ class Block01 extends Component {
                       src={icon1C}
                       alt="Mission Icon: OG Loc"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Management Issues
                   </td>
                 </tr>
@@ -320,7 +321,7 @@ class Block01 extends Component {
                       src={icon1C}
                       alt="Mission Icon: OG Loc"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     House Party (prepare for party)
                   </td>
                 </tr>
@@ -331,7 +332,7 @@ class Block01 extends Component {
                       src={icon1C}
                       alt="Mission Icon: OG Loc"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     House Party
                   </td>
                   <td>C3691B45 712DCEC4 14AE4741</td>
@@ -346,7 +347,7 @@ class Block01 extends Component {
                       src={icon10}
                       alt="Mission Icon: C.R.A.S.H."
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Burning Desire
                   </td>
                   <td rowSpan={2}>crash</td>
@@ -362,7 +363,7 @@ class Block01 extends Component {
                       src={icon10}
                       alt="Mission Icon: C.R.A.S.H."
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Gray Imports
                   </td>
                 </tr>
@@ -374,7 +375,7 @@ class Block01 extends Component {
                       src={icon0D}
                       alt="Mission Icon: Wang Cars"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     High Stakes, Low-rider
                   </td>
                   <td>cesar</td>
@@ -391,7 +392,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Reuniting the Families
                   </td>
                   <td rowSpan={2}>la1fin</td>
@@ -407,7 +408,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     The Green Sabre
                   </td>
                 </tr>
@@ -421,7 +422,7 @@ class Block01 extends Component {
                       src={icon28}
                       alt="Mission Icon: The Truth"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Body Harvest
                   </td>
                   <td rowSpan={2}>tru</td>
@@ -437,7 +438,7 @@ class Block01 extends Component {
                       src={icon28}
                       alt="Mission Icon: The Truth"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Are you going to San Fierro?
                   </td>
                   <td>C6A066C4 A5ECD6C4 FE239942</td>
@@ -452,7 +453,7 @@ class Block01 extends Component {
                       src={icon0D}
                       alt="Mission Icon: Wang Cars"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Wu Zi Mu
                   </td>
                   <td rowSpan={2}>bcesar</td>
@@ -468,7 +469,7 @@ class Block01 extends Component {
                       src={icon0D}
                       alt="Mission Icon: Wang Cars"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Farewell, my love...
                   </td>
                   <td>E17B00C4 62503CC3 78EB9A42</td>
@@ -481,7 +482,7 @@ class Block01 extends Component {
                       src={icon10}
                       alt="Mission Icon: C.R.A.S.H."
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Badlands
                   </td>
                   <td>bcrash</td>
@@ -494,7 +495,7 @@ class Block01 extends Component {
                   </td>
                   <td className="center">00</td>
                   <td>
-                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{" "}
+                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{' '}
                     Wear Flowers in your Hair
                   </td>
                   <td rowSpan={2}>garage</td>
@@ -506,7 +507,7 @@ class Block01 extends Component {
                 <tr>
                   <td className="center">01</td>
                   <td>
-                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{" "}
+                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{' '}
                     Deconstruction
                   </td>
                 </tr>
@@ -520,7 +521,7 @@ class Block01 extends Component {
                       src={icon2F}
                       alt="Mission Icon: Zero"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Air Raid
                   </td>
                   <td rowSpan={3}>zero</td>
@@ -536,7 +537,7 @@ class Block01 extends Component {
                       src={icon2F}
                       alt="Mission Icon: Zero"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Supply Lines...
                   </td>
                   <td rowSpan={2}>9C5A0CC5 8FE30043 FD470942</td>
@@ -548,7 +549,7 @@ class Block01 extends Component {
                       src={icon2F}
                       alt="Mission Icon: Zero"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     New Model Army
                   </td>
                 </tr>
@@ -562,7 +563,7 @@ class Block01 extends Component {
                       src={icon2E}
                       alt="Mission Icon: Wu Zi Mu"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Mountain Cloud Boys
                   </td>
                   <td rowSpan={5}>wuzi</td>
@@ -578,7 +579,7 @@ class Block01 extends Component {
                       src={icon2E}
                       alt="Mission Icon: Wu Zi Mu"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Ran Fa Li
                   </td>
                 </tr>
@@ -589,7 +590,7 @@ class Block01 extends Component {
                       src={icon2E}
                       alt="Mission Icon: Wu Zi Mu"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Lure
                   </td>
                 </tr>
@@ -600,7 +601,7 @@ class Block01 extends Component {
                       src={icon2E}
                       alt="Mission Icon: Wu Zi Mu"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Amphibious Assault
                   </td>
                 </tr>
@@ -611,7 +612,7 @@ class Block01 extends Component {
                       src={icon2E}
                       alt="Mission Icon: Wu Zi Mu"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     The Da Nang Thang
                   </td>
                 </tr>
@@ -625,7 +626,7 @@ class Block01 extends Component {
                       src={icon0D}
                       alt="Mission Icon: Wang Cars"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Zeroing In
                   </td>
                   <td rowSpan={4}>steal</td>
@@ -641,7 +642,7 @@ class Block01 extends Component {
                       src={icon0D}
                       alt="Mission Icon: Wang Cars"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Test Drive
                   </td>
                 </tr>
@@ -652,7 +653,7 @@ class Block01 extends Component {
                       src={icon0D}
                       alt="Mission Icon: Wang Cars"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Customs Fast Track
                   </td>
                 </tr>
@@ -663,7 +664,7 @@ class Block01 extends Component {
                       src={icon0D}
                       alt="Mission Icon: Wang Cars"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Puncture Wounds
                   </td>
                 </tr>
@@ -677,7 +678,7 @@ class Block01 extends Component {
                       src={icon2B}
                       alt="Mission Icon: Triads"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Photo Opportunity
                   </td>
                   <td rowSpan={10}>synd</td>
@@ -693,7 +694,7 @@ class Block01 extends Component {
                       src={icon2B}
                       alt="Mission Icon: Triads"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Jizzy (only a cutscene)
                   </td>
                 </tr>
@@ -704,7 +705,7 @@ class Block01 extends Component {
                       src={icon17}
                       alt="Mission Icon: Loco Syndicate"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Jizzy
                   </td>
                   <td rowSpan={3}>F4F723C5 20B5AF44 4F40C340</td>
@@ -716,7 +717,7 @@ class Block01 extends Component {
                       src={icon17}
                       alt="Mission Icon: Loco Syndicate"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     T-Bone Mendez
                   </td>
                 </tr>
@@ -727,7 +728,7 @@ class Block01 extends Component {
                       src={icon17}
                       alt="Mission Icon: Loco Syndicate"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Mike Toreno
                   </td>
                 </tr>
@@ -738,7 +739,7 @@ class Block01 extends Component {
                       src={icon2B}
                       alt="Mission Icon: Triads"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Outrider
                   </td>
                   <td rowSpan={2}>DCCCFDC4 F1D31443 ECAFDE41</td>
@@ -750,7 +751,7 @@ class Block01 extends Component {
                       src={icon2B}
                       alt="Mission Icon: Triads"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Ice Cold Killa
                   </td>
                 </tr>
@@ -761,7 +762,7 @@ class Block01 extends Component {
                       src={icon2B}
                       alt="Mission Icon: Triads"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Pier 69
                   </td>
                   <td>9AA1D6C4 1F1DA044 295CC740</td>
@@ -773,7 +774,7 @@ class Block01 extends Component {
                       src={icon2B}
                       alt="Mission Icon: Triads"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Toreno's Last Flight
                   </td>
                   <td rowSpan={4}>DCCCFDC4 F1D31443 ECAFDE41</td>
@@ -785,7 +786,7 @@ class Block01 extends Component {
                       src={icon2B}
                       alt="Mission Icon: Triads"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Yay Ka-Boom-Boom
                   </td>
                 </tr>
@@ -795,7 +796,7 @@ class Block01 extends Component {
                   </td>
                   <td className="center">00</td>
                   <td>
-                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{" "}
+                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{' '}
                     555 WE TIP
                   </td>
                   <td rowSpan={2}>scrash</td>
@@ -810,7 +811,7 @@ class Block01 extends Component {
                       src={icon10}
                       alt="Mission Icon: C.R.A.S.H."
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Snail Trail
                   </td>
                 </tr>
@@ -822,7 +823,7 @@ class Block01 extends Component {
                       src={icon05}
                       alt="Mission Icon: Verdant Meadows Aircraft Graveyard"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     (buy the airfield)
                   </td>
                   <td>buy3</td>
@@ -837,7 +838,7 @@ class Block01 extends Component {
                       src={icon24}
                       alt="Mission Icon: Flight School"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Learning to Fly
                   </td>
                   <td>psch</td>
@@ -854,7 +855,7 @@ class Block01 extends Component {
                       src={icon25}
                       alt="Mission Icon: Onbekende"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Monster
                   </td>
                   <td rowSpan={9}>desert</td>
@@ -870,7 +871,7 @@ class Block01 extends Component {
                       src={icon25}
                       alt="Mission Icon: Onbekende"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Highjack
                   </td>
                 </tr>
@@ -881,7 +882,7 @@ class Block01 extends Component {
                       src={icon2A}
                       alt="Mission Icon: Mike Toreno"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Interdiction
                   </td>
                 </tr>
@@ -892,7 +893,7 @@ class Block01 extends Component {
                       src={icon2A}
                       alt="Mission Icon: Mike Toreno"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Verdant Meadows
                   </td>
                 </tr>
@@ -903,7 +904,7 @@ class Block01 extends Component {
                       src={icon24}
                       alt="Mission Icon: Flight School"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     (buy the airfield) / Learning to Fly
                   </td>
                   <td />
@@ -915,7 +916,7 @@ class Block01 extends Component {
                       src={icon05}
                       alt="Mission Icon: Verdant Meadows Aircraft Graveyard"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     N.O.E.
                   </td>
                   <td rowSpan={4}>58B9A343 85211E45 D5E77C41</td>
@@ -927,7 +928,7 @@ class Block01 extends Component {
                       src={icon05}
                       alt="Mission Icon: Verdant Meadows Aircraft Graveyard"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Stowaway
                   </td>
                 </tr>
@@ -938,7 +939,7 @@ class Block01 extends Component {
                       src={icon05}
                       alt="Mission Icon: Verdant Meadows Aircraft Graveyard"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Black Project
                   </td>
                 </tr>
@@ -949,7 +950,7 @@ class Block01 extends Component {
                       src={icon05}
                       alt="Mission Icon: Verdant Meadows Aircraft Graveyard"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Green Goo
                   </td>
                 </tr>
@@ -963,7 +964,7 @@ class Block01 extends Component {
                       src={icon2C}
                       alt="Mission Icon: The Four Dragons Casino"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Fender Ketchup
                   </td>
                   <td rowSpan={9}>casino</td>
@@ -979,7 +980,7 @@ class Block01 extends Component {
                       src={icon2C}
                       alt="Mission Icon: The Four Dragons Casino"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Explosive Situation
                   </td>
                 </tr>
@@ -990,7 +991,7 @@ class Block01 extends Component {
                       src={icon2C}
                       alt="Mission Icon: The Four Dragons Casino"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     You've had your Chips
                   </td>
                 </tr>
@@ -1001,7 +1002,7 @@ class Block01 extends Component {
                       src={icon2C}
                       alt="Mission Icon: The Four Dragons Casino"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Don Peyote
                   </td>
                   <td>4A53FD44 0FEF7B44 D2001D41</td>
@@ -1013,7 +1014,7 @@ class Block01 extends Component {
                       src={icon19}
                       alt="Mission Icon: Caligula's Palace"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Intensive Care
                   </td>
                   <td rowSpan={2}>23EA0D45 2D73CC44 80D77B44</td>
@@ -1025,7 +1026,7 @@ class Block01 extends Component {
                       src={icon19}
                       alt="Mission Icon: Caligula's Palace"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     The Meat Business
                   </td>
                 </tr>
@@ -1036,7 +1037,7 @@ class Block01 extends Component {
                       src={icon2C}
                       alt="Mission Icon: The Four Dragons Casino"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Fish in a Barrel
                   </td>
                   <td>D04DF544 33AB7344 015E7844</td>
@@ -1048,7 +1049,7 @@ class Block01 extends Component {
                       src={icon19}
                       alt="Mission Icon: Caligula's Palace"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Freefall
                   </td>
                   <td rowSpan={2}>23EA0D45 2D73CC44 80D77B44</td>
@@ -1060,7 +1061,7 @@ class Block01 extends Component {
                       src={icon19}
                       alt="Mission Icon: Caligula's Palace"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Saint Mark's Bistro
                   </td>
                 </tr>
@@ -1074,7 +1075,7 @@ class Block01 extends Component {
                       src={icon10}
                       alt="Mission Icon: C.R.A.S.H."
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Misappropriation
                   </td>
                   <td rowSpan={2}>vcrash</td>
@@ -1090,7 +1091,7 @@ class Block01 extends Component {
                       src={icon10}
                       alt="Mission Icon: C.R.A.S.H."
                       className="icon"
-                    />{" "}
+                    />{' '}
                     High Noon
                   </td>
                   <td>3B61BDC3 C0BD0B45 17B72542</td>
@@ -1103,7 +1104,7 @@ class Block01 extends Component {
                       src={icon18}
                       alt="Mission Icon: Madd Dogg"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Madd Dogg
                   </td>
                   <td>doc</td>
@@ -1120,7 +1121,7 @@ class Block01 extends Component {
                       src={icon34}
                       alt="Mission Icon: Bankroof"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Architectural Espionage
                   </td>
                   <td rowSpan={6}>heist</td>
@@ -1136,7 +1137,7 @@ class Block01 extends Component {
                       src={icon34}
                       alt="Mission Icon: Bankroof"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Key to her Heart
                   </td>
                 </tr>
@@ -1147,7 +1148,7 @@ class Block01 extends Component {
                       src={icon34}
                       alt="Mission Icon: Bankroof"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Dam and Blast
                   </td>
                 </tr>
@@ -1158,7 +1159,7 @@ class Block01 extends Component {
                       src={icon34}
                       alt="Mission Icon: Bankroof"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Cop Wheels
                   </td>
                 </tr>
@@ -1169,7 +1170,7 @@ class Block01 extends Component {
                       src={icon34}
                       alt="Mission Icon: Bankroof"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Up, Up and Away!
                   </td>
                 </tr>
@@ -1180,7 +1181,7 @@ class Block01 extends Component {
                       src={icon34}
                       alt="Mission Icon: Bankroof"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Breaking the Bank at Caligula's
                   </td>
                 </tr>
@@ -1194,7 +1195,7 @@ class Block01 extends Component {
                       src={icon2C}
                       alt="Mission Icon: The Four Dragons Casino"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     A Home In The Hills
                   </td>
                   <td rowSpan={4}>mansion</td>
@@ -1206,7 +1207,7 @@ class Block01 extends Component {
                 <tr>
                   <td className="center">01</td>
                   <td>
-                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{" "}
+                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{' '}
                     Vertical Bird
                   </td>
                   <td rowSpan={3}>37B99C44 9A5044C4 0710B642</td>
@@ -1214,14 +1215,14 @@ class Block01 extends Component {
                 <tr>
                   <td className="center">02</td>
                   <td>
-                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{" "}
+                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{' '}
                     Home Coming
                   </td>
                 </tr>
                 <tr>
                   <td className="center">03</td>
                   <td>
-                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{" "}
+                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{' '}
                     Cut Throat Business
                   </td>
                 </tr>
@@ -1235,7 +1236,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Beat Down on B Dup
                   </td>
                   <td rowSpan={2}>grove</td>
@@ -1251,7 +1252,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Grove 4 Life
                   </td>
                   <td>1F311D45 5C3FD1C4 295C4B41</td>
@@ -1262,7 +1263,7 @@ class Block01 extends Component {
                   </td>
                   <td className="center">00</td>
                   <td>
-                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{" "}
+                    <img src={icon0F} alt="Mission Icon: CJ" className="icon" />{' '}
                     Riot
                   </td>
                   <td rowSpan={5}>riot</td>
@@ -1276,7 +1277,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Los Desperados
                   </td>
                   <td className="center" rowSpan={4}>
@@ -1291,7 +1292,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     End Of The Line
                   </td>
                 </tr>
@@ -1302,7 +1303,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     End Of The Line (escape from the building)
                   </td>
                 </tr>
@@ -1313,7 +1314,7 @@ class Block01 extends Component {
                       src={icon26}
                       alt="Mission Icon: Sweet"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     End Of The Line (follow Tenpenny)
                   </td>
                 </tr>
@@ -1325,7 +1326,7 @@ class Block01 extends Component {
                       src={icon0C}
                       alt="Mission Icon: Catalina"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Local Liquor Store
                   </td>
                   <td rowSpan={4}>cat</td>
@@ -1342,7 +1343,7 @@ class Block01 extends Component {
                       src={icon0C}
                       alt="Mission Icon: Catalina"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Small Town Bank
                   </td>
                 </tr>
@@ -1354,7 +1355,7 @@ class Block01 extends Component {
                       src={icon0C}
                       alt="Mission Icon: Catalina"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Tanker Commander
                   </td>
                 </tr>
@@ -1366,7 +1367,7 @@ class Block01 extends Component {
                       src={icon0C}
                       alt="Mission Icon: Catalina"
                       className="icon"
-                    />{" "}
+                    />{' '}
                     Against All Odds
                   </td>
                 </tr>
@@ -1378,21 +1379,28 @@ class Block01 extends Component {
               </li>
               <li>
                 <b>Target</b> is the <b>address</b> of the blip link (see block
-                9) to the blip on the radar.<br />
+                9) to the blip on the radar.
+                <br />
                 This is for deleting the radar blib after the mission is
                 completed.
               </li>
               <li>
-                Some mission blocks have the same target value:<br />
-                "Tagging up Turf", "Reuniting the Families", "Los Desperados"<br />
-                "Wear Flowers in your Hair", "Photo Opportunity", "555 WE TIP"<br />
+                Some mission blocks have the same target value:
+                <br />
+                "Tagging up Turf", "Reuniting the Families", "Los Desperados"
+                <br />
+                "Wear Flowers in your Hair", "Photo Opportunity", "555 WE TIP"
+                <br />
                 "Fender Ketchup", "A Home In The Hills"
               </li>
               <li>
-                The Catalina missions can be done in any order.<br />
+                The Catalina missions can be done in any order.
+                <br />
                 The first mission has location 14662A44 3C65EFC3 E63F7541 and
-                has a question mark as symbol.<br />
-                In 01.0104, the number of completed missions is saved.<br />
+                has a question mark as symbol.
+                <br />
+                In 01.0104, the number of completed missions is saved.
+                <br />
                 This number also increases when completed the mission Wu Zi Mu.
               </li>
               <li>
@@ -1408,7 +1416,8 @@ class Block01 extends Component {
                 <tr>
                   <td className="int">B426</td>
                   <td>
-                    The number of structs of 262 bytes that will follow.<br />
+                    The number of structs of 262 bytes that will follow.
+                    <br />
                     These structs are the last bytes of this block.
                   </td>
                 </tr>
@@ -2078,8 +2087,9 @@ class Block01 extends Component {
                   </td>
                   <td className="center middle">4</td>
                   <td>
-                    Exercise available (0 - 16)<br />The value is 0 if you never
-                    have visited the driving school.
+                    Exercise available (0 - 16)
+                    <br />
+                    The value is 0 if you never have visited the driving school.
                   </td>
                 </tr>
                 <tr>
@@ -2107,7 +2117,9 @@ class Block01 extends Component {
                 </tr>
                 <tr>
                   <td className="bool">
-                    1EA0<br />1EA4
+                    1EA0
+                    <br />
+                    1EA4
                   </td>
                   <td className="center">1</td>
                   <td>Flying school completed (not sure)</td>
@@ -2130,8 +2142,9 @@ class Block01 extends Component {
                   <td className="type">Bike</td>
                   <td className="center middle">4</td>
                   <td>
-                    Exercise available (0 - 6)<br />There is no difference
-                    between the values 0 and 1.
+                    Exercise available (0 - 6)
+                    <br />
+                    There is no difference between the values 0 and 1.
                   </td>
                 </tr>
               </tbody>
@@ -2139,14 +2152,17 @@ class Block01 extends Component {
             <ul>
               <li>
                 Some exercises have two numbers, because you can do them
-                clockwise and counter clockwise.<br />
+                clockwise and counter clockwise.
+                <br />
                 If an exercise has two numbers, use both for detecting, but use
                 the highest for saving.
               </li>
               <li>
-                The user chooses what exercises are available.<br />
+                The user chooses what exercises are available.
+                <br />
                 The last exercise available and the exercises following must be
-                0 and disabled for editing.<br />
+                0 and disabled for editing.
+                <br />
                 The exception is when the last exercise is selected, then the
                 user can edit everything.
               </li>
@@ -2158,13 +2174,15 @@ class Block01 extends Component {
                 <ul>
                   <li>
                     If 00D8 equals 0, set every exercise to 0 and don't let the
-                    user change anything.<br />
+                    user change anything.
+                    <br />
                     This is because GTA sets 00D8 to 1 when you walk into the
                     red marker.
                   </li>
                   <li>
                     If 015C is false, suggest the user to keep the last exercise
-                    at 0.<br />
+                    at 0.
+                    <br />
                     Otherwise you can't complete the driving school.
                   </li>
                 </ul>
