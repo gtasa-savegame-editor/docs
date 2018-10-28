@@ -5,6 +5,7 @@ body {
 
 #toc {
   position: fixed;
+  overflow-y: scroll;
   left: 0;
   top: 0;
   height: 100%;
