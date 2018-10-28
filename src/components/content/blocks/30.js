@@ -1,13 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-class Block30
-    extends Component {
-    render() {
-        return (
-            <div className="section">
-            </div>
-        );
-    }
+class Block30 extends Component {
+  render() {
+    return <div className="section" />;
+  }
 }
 
 export default Block30;
