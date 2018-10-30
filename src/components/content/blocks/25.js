@@ -1,6 +1,23 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 class Block25 extends Component {
+  handleClick() {
+    console.log('this is:', this.state.inputValue);
+  }
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      inputValue: ''
+    };
+  }
+
+  updateInputValue(evt) {
+    this.setState({
+      inputValue: evt.target.value
+    });
+  }
+
   render() {
     return (
       <div>
@@ -150,7 +167,8 @@ class Block25 extends Component {
               </li>
               <li>
                 If <b>B</b> has the 0x40 bit set, there is a yellow thing.
-                Otherwise there is no teleport. Common values are 00, 20, 40 and 60.
+                Otherwise there is no teleport. Common values are 00, 20, 40 and
+                60.
               </li>
               <li>
                 The <b>target</b> is the location where it teleports to. -1
@@ -162,11 +180,15 @@ class Block25 extends Component {
                 The address is a hexidecimal offset.
                 <br />
                 <br />
-                <input type="text" id="location" />
+                <input
+                  type="text"
+                  value={this.state.inputValue}
+                  onChange={evt => this.updateInputValue(evt)}
+                />
                 <input
                   type="button"
                   defaultValue=">"
-                  onClick={console.log('TODO: implement')}
+                  onClick={e => this.handleClick(e)}
                 />
                 <input type="text" id="address" />
               </li>
