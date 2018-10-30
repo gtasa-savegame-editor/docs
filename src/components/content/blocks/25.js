@@ -150,8 +150,7 @@ class Block25 extends Component {
               </li>
               <li>
                 If <b>B</b> has the 0x40 bit set, there is a yellow thing.
-                Otherwise there is no teleport. Common values are 00, 20, 40 en
-                60.
+                Otherwise there is no teleport. Common values are 00, 20, 40 and 60.
               </li>
               <li>
                 The <b>target</b> is the location where it teleports to. -1
