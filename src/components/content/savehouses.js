@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Savehouses extends Component {
   render() {
     return (
@@ -24,7 +24,7 @@ class Savehouses extends Component {
               </tr>
               <tr>
                 <td className="type" rowSpan="6">
-                  <a href="?page=block00">00</a>
+                  <Link to={'/block00'}>00</Link>
                 </td>
                 <td className="float">0070</td>
                 <td className="center">4</td>
@@ -63,7 +63,7 @@ class Savehouses extends Component {
               </tr>
               <tr>
                 <td className="type" rowSpan="2">
-                  <a href="?page=block01">01</a>
+                  <Link to={'/block01'}>01</Link>
                 </td>
                 <td className="bool">00A0</td>
                 <td className="center">1</td>
@@ -78,7 +78,7 @@ class Savehouses extends Component {
               </tr>
               <tr>
                 <td className="type" rowSpan="2">
-                  <a href="?page=block02">02</a>
+                  <Link to={'/block02'}>02</Link>
                 </td>
                 <td className="int">0196</td>
                 <td className="center">1</td>
@@ -93,7 +93,7 @@ class Savehouses extends Component {
               </tr>
               <tr>
                 <td className="type" rowSpan="3">
-                  <a href="?page=block25">25</a>
+                  <Link to={'/block25'}>25</Link>
                 </td>
                 <td className="bool">0000</td>
                 <td className="center">1</td>
@@ -122,7 +122,7 @@ class Savehouses extends Component {
               </tr>
               <tr>
                 <td className="type">
-                  <a href="?page=block27">27</a>
+                  <Link to={'/block27'}>27</Link>
                 </td>
                 <td className="int middle">008C</td>
                 <td className="center middle">2</td>
@@ -135,7 +135,7 @@ class Savehouses extends Component {
           </table>
           <ul>
             <li>
-              <b>Location</b> is the <a href="?page=locations">location</a>{' '}
+              <b>Location</b> is the <Link to={'/locations'}>location</Link>{' '}
               after leaving the house.
               <br />
               This is usually an outside location.
@@ -734,7 +734,7 @@ class Savehouses extends Component {
             </li>
             <li>
               <b>Map X</b> and <b>Map Y</b> are coordinates on{' '}
-              <a href="?page=map">this map</a>.
+              <Link to={'/map'}>this map</Link>.
             </li>
           </ul>
         </div>

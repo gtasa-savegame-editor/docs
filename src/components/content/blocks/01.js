@@ -20,7 +20,7 @@ import icon2C from '../../../icon/2C.gif';
 import icon2E from '../../../icon/2E.gif';
 import icon2F from '../../../icon/2F.gif';
 import icon34 from '../../../icon/34.gif';
-
+import { Link } from 'react-router-dom';
 class Block01 extends Component {
   render() {
     return (
@@ -1777,7 +1777,7 @@ class Block01 extends Component {
               </li>
               <li>
                 Look for the values of <b>F</b>, <b>Name</b> and <b>Code</b> in
-                the <a href="?page=threads">thread table</a>.
+                the <Link to={'/threads'}>thread table</Link>.
               </li>
             </ul>
           </div>
@@ -2271,14 +2271,14 @@ class Block01 extends Component {
                   <td className="int">0C88</td>
                   <td className="center">4</td>
                   <td>
-                    Number of <a href="?page=block20">tags</a> sprayed
+                    Number of <Link to={'/block20'}>tags</Link> sprayed
                   </td>
                 </tr>
                 <tr>
                   <td className="int">0DD0</td>
                   <td className="center">4</td>
                   <td>
-                    Position house (<a href="?page=savehouses">savehouses</a>)
+                    Position house (<Link to={'/savehouses'}>savehouses</Link>)
                   </td>
                 </tr>
                 <tr>

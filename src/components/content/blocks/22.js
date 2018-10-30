@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Block22 extends Component {
   render() {
     return (
@@ -679,7 +679,7 @@ class Block22 extends Component {
               <b>C</b> is true if you purchased a clothing item.
             </li>
             <li>
-              See <a href="?page=block01">Block 01</a> for special clothes and
+              See <Link to={'/block01'}>Block 01</Link> for special clothes and
               clothing shops.
             </li>
           </ul>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Block11 extends Component {
   render() {
     return (
@@ -201,7 +201,7 @@ class Block11 extends Component {
           <ul>
             <li>
               Look for the weapon ids at the page{' '}
-              <a href="?page=weapons">weapons</a>.
+              <Link to={'/weapons'}>weapons</Link>.
             </li>
           </ul>
         </div>
