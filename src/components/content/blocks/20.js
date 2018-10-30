@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Block20 extends Component {
   render() {
     return (
@@ -190,7 +190,7 @@ class Block20 extends Component {
             </li>
             <li>
               The total number of tags sprayed is saved in{' '}
-              <a href="?page=block01">block 01</a>.
+              <Link to={'/block01'}>block 01</Link>.
             </li>
           </ul>
           <p>

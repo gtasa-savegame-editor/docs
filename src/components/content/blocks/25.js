@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Block25 extends Component {
   render() {
     return (
@@ -141,7 +141,7 @@ class Block25 extends Component {
             <ul>
               <li>
                 <b>Source</b> is the source{' '}
-                <a href="?page=locations">location</a>. This starts with 0 and
+                <Link to={'/locations'}>location</Link>. This starts with 0 and
                 counts up.
               </li>
               <li>

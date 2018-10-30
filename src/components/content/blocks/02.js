@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Block02 extends Component {
   render() {
     return (
@@ -321,7 +321,7 @@ class Block02 extends Component {
               </li>
               <li>
                 <b>H</b> is the heaven. (
-                <a href="?page=savehouses">savehouses</a>)
+                <Link to={'/savehouses'}>savehouses</Link>)
               </li>
               <li>
                 <b>Object</b> is not researched yet.
@@ -404,7 +404,7 @@ class Block02 extends Component {
             </table>
             <ul>
               <li>
-                You can see here <a href="?page=weapons">the weapon list</a>.
+                You can see here <Link to={'/weapons'}>the weapon list</Link>.
               </li>
             </ul>
           </div>
