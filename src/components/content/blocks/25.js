@@ -2,13 +2,56 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 class Block25 extends Component {
   handleClick() {
-    console.log('this is:', this.state.inputValue);
+    // check if the user entered something
+    let trimmedValue = this.state.inputValue.trim();
+    if (trimmedValue === '') {
+      alert('Enter a location value');
+      return;
+    }
+
+    // convert it to a number
+    let valueAsNumber = Number(trimmedValue);
+    if (valueAsNumber === NaN) {
+      alert('Value is not a number');
+      return;
+    }
+
+    // check if number is in the allowed range
+    if (valueAsNumber < 0 || valueAsNumber > 375) {
+      alert('Value not in the allowed range: 0 - 375');
+      return;
+    }
+
+    // taken from converts the given number to a hey byte array
+    // nl.paulinternet.gtasaveedit.model.savegame.SavegameData#writeInt(int, int, int, int)
+    let bytes = [2];
+    for (let i = 0; i < 2; i++) {
+      bytes[i] = (valueAsNumber >> (i * 8))
+        .toString(16)
+        .toUpperCase()
+        .padStart(2, '0');
+    }
+
+    // set to the outputValue
+    this.setState({ outputValue: bytes.join('') });
+
+    /*
+    // for debug when not needed comment out
+    // nl.paulinternet.gtasaveedit.model.savegame.SavegameData#readInt(int, int, int)
+    let bytesAsNumber = 0;
+    for(let i=0; i<2; i++) {
+      bytesAsNumber |= (parseInt(bytes[i],16) & 0xff) << i * 8;
+    }
+    console.error(`Number ${valueAsNumber} as bytes: ${bytes.map(byte => '0x'+byte)}`);
+    console.error(`Bytes [${bytes.map(byte => '0x'+byte)}] as number: ${bytesAsNumber}`);
+    */
   }
 
   constructor(props) {
     super(props);
     this.state = {
-      inputValue: ''
+      inputValue: '',
+      outputValue: ''
     };
   }
 
@@ -181,7 +224,9 @@ class Block25 extends Component {
                 <br />
                 <br />
                 <input
-                  type="text"
+                  type="number"
+                  min="0"
+                  max="375"
                   value={this.state.inputValue}
                   onChange={evt => this.updateInputValue(evt)}
                 />
@@ -190,7 +235,11 @@ class Block25 extends Component {
                   defaultValue=">"
                   onClick={e => this.handleClick(e)}
                 />
-                <input type="text" id="address" />
+                <input
+                  type="text"
+                  disabled={true}
+                  value={this.state.outputValue}
+                />
               </li>
             </ul>
           </div>
