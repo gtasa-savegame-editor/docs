@@ -45,7 +45,15 @@ class Overview extends Component {
           <dl>
             <dt>Windows</dt>
             <dd>
-              <code>%UserProfile%\My Documents\GTA San Andreas User Files</code>
+              <ul>
+                <li><code>%UserProfile%\My Documents\GTA San Andreas User Files</code></li>
+                <li>The above might only work on english systems. The following Java code can be used as an alternative: <code>FileSystemView.getFileSystemView().getDefaultDirectory().getPath()</code></li>
+                <li>Furthermore location of the my documents folder can also be found in the Windows registry key
+                  <code>
+                    HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell
+                    Folders\Personal
+                  </code>.</li>
+              </ul>
             </dd>
             <dt>
               macOS <i>(Steam)</i>
@@ -65,15 +73,6 @@ class Overview extends Component {
               </code>
             </dd>
           </dl>
-          <p>
-            The location of the my documents folder can also be found in the
-            Windows registry key "
-            <code>
-              HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell
-              Folders\Personal
-            </code>
-            ".
-          </p>
         </div>
         <div className="section">
           <h2>Savegame layout</h2>
