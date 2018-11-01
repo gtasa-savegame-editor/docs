@@ -55,8 +55,8 @@ class Legend extends Component {
 }
 
 Legend.propTypes = {
-  closeLegend: PropTypes.func.required,
-  visible: PropTypes.bool.required
+  closeLegend: PropTypes.func.isRequired,
+  visible: PropTypes.bool.isRequired
 };
 
 export default Legend;
