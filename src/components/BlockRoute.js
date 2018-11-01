@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const cache = {}; // { [blockId: string]: Component }
 
@@ -15,16 +15,15 @@ export class BlockRoute extends React.Component {
       const {
         match: { params }
       } = this.props;
-      const blockId = params["0"];
-      console.log({ blockId });
+      const blockId = params['0'];
       if (!blockId) {
-        console.error("No block ID provided!");
-        return this.setState({ error: "No block ID provided!" });
+        console.error('No block ID provided!');
+        return this.setState({ error: 'No block ID provided!' });
       }
       const matches = /^\d{2}$/.exec(blockId);
       if (!(matches && matches[0])) {
         console.error('"Invalid block ID!"');
-        return this.setState({ error: "Invalid block ID!" });
+        return this.setState({ error: 'Invalid block ID!' });
       }
       const cachedBlock = cache[blockId];
       if (!cachedBlock) {
@@ -46,7 +45,7 @@ export class BlockRoute extends React.Component {
   }
 
   async componentDidUpdate(prevProps = {}) {
-    if (prevProps.match.params["0"] !== this.props.match.params["0"]) {
+    if (prevProps.match.params['0'] !== this.props.match.params['0']) {
       await this.mountBlockComponent();
     }
   }
@@ -60,6 +59,6 @@ export class BlockRoute extends React.Component {
     if (blockComponentAvailable) {
       return <BlockComponent />;
     }
-    return "loading...";
+    return 'loading...';
   }
 }
