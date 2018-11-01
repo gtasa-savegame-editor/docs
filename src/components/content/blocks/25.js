@@ -11,7 +11,7 @@ class Block25 extends Component {
 
     // convert it to a number
     let valueAsNumber = Number(trimmedValue);
-    if (valueAsNumber === NaN) {
+    if (isNaN(valueAsNumber)) {
       alert('Value is not a number');
       return;
     }
