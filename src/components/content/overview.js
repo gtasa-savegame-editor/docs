@@ -49,7 +49,6 @@ class Overview extends Component {
           <dl>
             <dt>Windows</dt>
             <dd>
-<<<<<<< HEAD
               <ul>
                 <li>
                   Default:{' '}
@@ -66,9 +65,6 @@ class Overview extends Component {
                   </code>
                 </li>
               </ul>
-=======
-              <code>%UserProfile%\My Documents\GTA San Andreas User Files</code>
->>>>>>> [Fixes #12] add link to github repo, fix proptypes
             </dd>
             <dt>
               macOS <i>(Steam)</i>
@@ -82,7 +78,6 @@ class Overview extends Component {
               Linux <i>(Steam Play)</i>
             </dt>
             <dd>
-<<<<<<< HEAD
               <ul>
                 <li>
                   <code>
@@ -98,28 +93,6 @@ class Overview extends Component {
               </ul>
             </dd>
           </dl>
-=======
-              <code>
-                $HOME/.steam/steam/steamapps/compatdata/12120/pfx/drive_c/users/steamuser/My
-                Documents/GTA San Andreas User Files
-              </code>
-            </dd>
-          </dl>
-          <p>
-            It's worth noting that while the <code>drive_c</code> folder
-            contains the savegames on Linux (Steam Play), the game is launched
-            from the regular <code>steamapps/common</code> path.
-          </p>
-          <p>
-            The location of the my documents folder can also be found in the
-            Windows registry key "
-            <code>
-              HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell
-              Folders\Personal
-            </code>
-            ".
-          </p>
->>>>>>> [Fixes #12] add link to github repo, fix proptypes
         </div>
         <div className="section">
           <h2>Savegame layout</h2>
