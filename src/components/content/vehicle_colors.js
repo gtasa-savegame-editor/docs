@@ -5,6 +5,12 @@ class VehicleColors extends Component {
     return (
       <div>
         <div className="section">
+          <p>
+            All the colors and their connections to vehicles are persisted in <pre>carcols.dat</pre>.<br />
+            The <pre>colors</pre> section describes all the colors with their id and rgb values (a comment containing their names, too).<br />
+            The <pre>car</pre> section describes their connection to cars.<br />
+            More info <a href="https://www.grandtheftwiki.com/Car_Colours#car">on GrandTheftWiki</a>.
+          </p>
           <table>
             <tbody>
               <tr>
