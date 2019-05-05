@@ -176,3 +176,7 @@ dl > dt {
 .legend tr td:nth-child(2) {
     background: #ffffff;
 }
+
+pre.inline {
+  display: inline-block;
+}

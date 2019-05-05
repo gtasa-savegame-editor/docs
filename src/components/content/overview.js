@@ -26,9 +26,11 @@ class Overview extends Component {
                 grandtheftwiki.com
               </a>
             </li>
-          </ul>
-          <p>Other awesome sites regarding GTA SA:</p>
-          <ul>
+            <li>
+              <a href="https://wiki.sa-mp.com/wiki/Category:General_Information">
+                SA-MP Wiki
+              </a>
+            </li>
             <li>
               <a href="https://dev.prineside.com/gtasa_samp_model_id/?devtools_locale=en">
                 GTA SA and SA-MP model ID (Prineside DevTools)

@@ -4,6 +4,13 @@ class VehicleMods extends Component {
   render() {
     return (
       <div>
+        <p>
+          A good resource for modelId is{' '}
+          <a href="https://wiki.sa-mp.com/wiki/Car_Component_ID">
+            available in the sa-mp wiki
+          </a>{' '}
+          or the id devtools linked on the overview page.
+        </p>
         <div className="section">
           <table>
             <tbody>
