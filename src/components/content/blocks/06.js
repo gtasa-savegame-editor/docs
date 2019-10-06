@@ -283,10 +283,10 @@ class Block06 extends Component {
             <table>
               <tbody>
                 <tr>
-                  <td className="header">Object</td>
-                  <td className="header">Before pickup</td>
-                  <td className="header">After pickup</td>
-                  <td className="header">Notes</td>
+                  <th className="header">Object</th>
+                  <th className="header">Before pickup</th>
+                  <th className="header">After pickup</th>
+                  <th className="header">Notes</th>
                 </tr>
                 <tr>
                   <td>Weapons</td>
@@ -356,9 +356,9 @@ class Block06 extends Component {
             <table>
               <tbody>
                 <tr>
-                  <td className="header center">Byte</td>
-                  <td className="header">Replaceable</td>
-                  <td className="header">Definition</td>
+                  <th className="header center">Byte</th>
+                  <th className="header">Replaceable</th>
+                  <th className="header">Definition</th>
                 </tr>
                 <tr>
                   <td className="center">00</td>

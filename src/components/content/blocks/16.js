@@ -9,9 +9,9 @@ class Block16 extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header">Position</td>
-                <td className="header">Describtion</td>
-                <td className="header">Unit / Value</td>
+                <th className="header">Position</th>
+                <th className="header">Describtion</th>
+                <th className="header">Unit / Value</th>
               </tr>
               <tr>
                 <td className="float">0000</td>

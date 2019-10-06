@@ -15,9 +15,9 @@ class VehicleMods extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header center">Type</td>
-                <td className="header">Name</td>
-                <td className="header">ID</td>
+                <th className="header center">Type</th>
+                <th className="header">Name</th>
+                <th className="header">ID</th>
               </tr>
               <tr>
                 <td className="center">Car Stereo</td>

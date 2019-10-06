@@ -119,9 +119,9 @@ class Overview extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header">Block</td>
-                <td className="header right">Size</td>
-                <td className="header">Description</td>
+                <th className="header">Block</th>
+                <th className="header right">Size</th>
+                <th className="header">Description</th>
               </tr>
               <tr>
                 <td className="center">00</td>

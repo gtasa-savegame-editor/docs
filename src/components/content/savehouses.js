@@ -16,11 +16,11 @@ class Savehouses extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header">Block</td>
-                <td className="header">Address</td>
-                <td className="header">Size</td>
-                <td className="header center">Value</td>
-                <td className="header">Notes</td>
+                <th className="header">Block</th>
+                <th className="header">Address</th>
+                <th className="header">Size</th>
+                <th className="header center">Value</th>
+                <th className="header">Notes</th>
               </tr>
               <tr>
                 <td className="type" rowSpan="6">
@@ -147,15 +147,15 @@ class Savehouses extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header int">House</td>
-                <td className="header int">Heaven</td>
-                <td className="header int">Location inside</td>
-                <td className="header int">Teleport</td>
-                <td className="header int">Times used</td>
-                <td className="header float">X</td>
-                <td className="header float">Y</td>
-                <td className="header float">Z</td>
-                <td className="header string">Used in save places</td>
+                <th className="header int">House</th>
+                <th className="header int">Heaven</th>
+                <th className="header int">Location inside</th>
+                <th className="header int">Teleport</th>
+                <th className="header int">Times used</th>
+                <th className="header float">X</th>
+                <th className="header float">Y</th>
+                <th className="header float">Z</th>
+                <th className="header string">Used in save places</th>
               </tr>
               <tr>
                 <td className="right">0</td>
@@ -384,13 +384,13 @@ class Savehouses extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header int">ID</td>
-                <td className="header int">House</td>
-                <td className="header int">Location</td>
-                <td className="header int">Map X</td>
-                <td className="header int">Map Y</td>
-                <td className="header string">Hood</td>
-                <td className="header string">Notes</td>
+                <th className="header int">ID</th>
+                <th className="header int">House</th>
+                <th className="header int">Location</th>
+                <th className="header int">Map X</th>
+                <th className="header int">Map Y</th>
+                <th className="header string">Hood</th>
+                <th className="header string">Notes</th>
               </tr>
               <tr>
                 <td className="right">0</td>

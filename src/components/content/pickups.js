@@ -8,8 +8,8 @@ class Pickups extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header right">ID</td>
-                <td className="header">Describtion</td>
+                <th className="header right">ID</th>
+                <th className="header">Describtion</th>
               </tr>
               <tr>
                 <td className="right">330</td>

@@ -321,9 +321,9 @@ class Block10 extends Component {
                 <table>
                   <tbody>
                     <tr>
-                      <td className="header center">Gang</td>
-                      <td className="header">Description</td>
-                      <td className="header">Color</td>
+                      <th className="header center">Gang</th>
+                      <th className="header">Description</th>
+                      <th className="header">Color</th>
                     </tr>
                     <tr>
                       <td className="center">0</td>
@@ -400,8 +400,8 @@ class Block10 extends Component {
                 <table>
                   <tbody>
                     <tr>
-                      <td className="header center">Byte</td>
-                      <td className="header">Description</td>
+                      <th className="header center">Byte</th>
+                      <th className="header">Description</th>
                     </tr>
                     <tr>
                       <td className="center">00</td>

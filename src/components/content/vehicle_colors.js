@@ -24,9 +24,9 @@ class VehicleColors extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="right header">ID</td>
-                <td className="header">Color</td>
-                <td className="header">Name</td>
+                <th className="right header">ID</th>
+                <th className="header">Color</th>
+                <th className="header">Name</th>
               </tr>
               <tr>
                 <td className="right">0</td>
