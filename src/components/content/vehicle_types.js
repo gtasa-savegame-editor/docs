@@ -8,9 +8,9 @@ class VehicleTypes extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header center">Type</td>
-                <td className="header">Name</td>
-                <td className="header">ID</td>
+                <th className="header center">Type</th>
+                <th className="header">Name</th>
+                <th className="header">ID</th>
               </tr>
               <tr>
                 <td rowSpan="13" className="type">
@@ -865,9 +865,9 @@ class VehicleTypes extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header">ID</td>
-                <td className="header">Name</td>
-                <td className="header">Type</td>
+                <th className="header">ID</th>
+                <th className="header">Name</th>
+                <th className="header">Type</th>
               </tr>
               <tr>
                 <td>449</td>

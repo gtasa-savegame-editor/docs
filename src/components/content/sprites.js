@@ -70,9 +70,9 @@ class Sprites extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header">Byte</td>
-                <td className="header">Image</td>
-                <td className="header">Notes</td>
+                <th className="header">Byte</th>
+                <th className="header">Image</th>
+                <th className="header">Notes</th>
               </tr>
               <tr>
                 <td className="center">00</td>

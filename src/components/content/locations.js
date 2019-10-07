@@ -8,9 +8,9 @@ class Locations extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header right int">ID</td>
-                <td className="header center bool">Inside</td>
-                <td className="header string">Describtion</td>
+                <th className="header right int">ID</th>
+                <th className="header center bool">Inside</th>
+                <th className="header string">Describtion</th>
               </tr>
               <tr>
                 <td className="right">0</td>

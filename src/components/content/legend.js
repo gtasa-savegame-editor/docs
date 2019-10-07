@@ -11,8 +11,8 @@ class Legend extends Component {
         <table>
           <tbody>
             <tr>
-              <td className="header center">Type</td>
-              <td className="header">Notes</td>
+              <th className="header center">Type</th>
+              <tr className="header">Notes</tr>
               <td
                 onClick={this.props.closeLegend}
                 style={{ cursor: 'pointer' }}

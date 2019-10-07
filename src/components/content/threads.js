@@ -8,9 +8,9 @@ class Threads extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header">Name</td>
-                <td className="header">Code</td>
-                <td className="header">First</td>
+                <th className="header">Name</th>
+                <th className="header">Code</th>
+                <th className="header">First</th>
               </tr>
               <tr>
                 <td>bcesar</td>

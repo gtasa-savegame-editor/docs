@@ -8,11 +8,11 @@ class Weapons extends Component {
           <table>
             <tbody>
               <tr>
-                <td className="header int">Slot</td>
-                <td className="header int">ID</td>
-                <td className="header string">Name</td>
-                <td className="header bool">Ammo</td>
-                <td className="header float">Skill (block 16)</td>
+                <th className="header int">Slot</th>
+                <th className="header int">ID</th>
+                <th className="header string">Name</th>
+                <th className="header bool">Ammo</th>
+                <th className="header float">Skill (block 16)</th>
               </tr>
               <tr>
                 <td className="type" rowSpan="2">

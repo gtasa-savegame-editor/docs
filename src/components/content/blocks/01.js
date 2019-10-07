@@ -37,12 +37,12 @@ class Block01 extends Component {
             <table>
               <tbody>
                 <tr>
-                  <td className="header">Position</td>
-                  <td className="header">Byte</td>
-                  <td className="header">Mission</td>
-                  <td className="header">Thread</td>
-                  <td className="header center">Target</td>
-                  <td className="header center">Location XYZ</td>
+                  <th className="header">Position</th>
+                  <th className="header">Byte</th>
+                  <th className="header">Mission</th>
+                  <th className="header">Thread</th>
+                  <th className="header center">Target</th>
+                  <th className="header center">Location XYZ</th>
                 </tr>
                 <tr>
                   <td className="int" rowSpan={2}>
@@ -1786,13 +1786,13 @@ class Block01 extends Component {
             <table>
               <tbody>
                 <tr>
-                  <td className="header">Position</td>
-                  <td className="header center">School</td>
-                  <td className="header">Exercise</td>
-                  <td className="header center">Unit</td>
-                  <td className="header right">Default</td>
-                  <td className="header right">Target</td>
-                  <td className="header">Number</td>
+                  <th className="header">Position</th>
+                  <th className="header center">School</th>
+                  <th className="header">Exercise</th>
+                  <th className="header center">Unit</th>
+                  <th className="header right">Default</th>
+                  <th className="header right">Target</th>
+                  <th className="header">Number</th>
                 </tr>
                 <tr>
                   <td className="int">01B0</td>
@@ -2075,10 +2075,10 @@ class Block01 extends Component {
             <table>
               <tbody>
                 <tr>
-                  <td className="header">Position</td>
-                  <td className="header center">School</td>
-                  <td className="header">Size</td>
-                  <td className="header">Describtion</td>
+                  <th className="header">Position</th>
+                  <th className="header center">School</th>
+                  <th className="header">Size</th>
+                  <th className="header">Describtion</th>
                 </tr>
                 <tr>
                   <td className="int middle">00D8</td>
@@ -2238,9 +2238,9 @@ class Block01 extends Component {
             <table>
               <tbody>
                 <tr>
-                  <td className="header">Position</td>
-                  <td className="header">Size</td>
-                  <td className="header">Describtion</td>
+                  <th className="header">Position</th>
+                  <th className="header">Size</th>
+                  <th className="header">Describtion</th>
                 </tr>
                 <tr>
                   <td className="bool">00A0</td>

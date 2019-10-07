@@ -180,6 +180,11 @@ class Nav extends Component {
             </NavLink>
           </li>
           <li>
+            <NavLink activeClassName={'active'} to={'/garages'}>
+              garages
+            </NavLink>
+          </li>
+          <li>
             <NavLink activeClassName={'active'} to={'/locations'}>
               locations
             </NavLink>
