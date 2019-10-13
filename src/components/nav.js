@@ -11,6 +11,11 @@ class Nav extends Component {
             <NavLink activeClassName={'active'} exact={true} to={'/'}>
               overview
             </NavLink>
+          </li>
+          <li>
+            <NavLink activeClassName={'active'} to={'/android'}>
+              android
+            </NavLink>
             <p />
           </li>
           <li>
