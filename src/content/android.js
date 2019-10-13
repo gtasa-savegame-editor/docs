@@ -42,11 +42,8 @@ class Android extends Component {
               <dl>
                 <dt>gtasatelem.set</dt>
                 <dd>
-                  Starts with{' '}
-                  <code>
-                    telemv001, contains binary data along the String{' '}
-                    <code>Usage</code>. Seems like analytics.
-                  </code>
+                  Starts with <code>telemv001</code>, contains binary data along
+                  the String <code>Usage</code>. Seems like analytics.
                 </dd>
               </dl>
             </li>

@@ -27,9 +27,7 @@ export class BlockRoute extends React.Component {
       }
       const cachedBlock = cache[blockId];
       if (!cachedBlock) {
-        const {
-          default: Component
-        } = await import(`./content/blocks/${blockId}.js`);
+        const { default: Component } = await import(`./src/content`);
         this.BlockComponent = cache[blockId] = Component;
       } else {
         this.BlockComponent = cachedBlock;

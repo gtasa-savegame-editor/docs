@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
 import { HashRouter, Route } from 'react-router-dom';
-import Overview from './components/content/overview';
+import Overview from './content/overview';
 import Nav from './components/nav';
-import Threads from './components/content/threads';
-import Weapons from './components/content/weapons';
-import Pickups from './components/content/pickups';
-import Sprites from './components/content/sprites';
-import VehicleColors from './components/content/vehicle_colors';
-import VehicleTypes from './components/content/vehicle_types';
-import VehicleMods from './components/content/vehicle_mods';
-import Locations from './components/content/locations';
-import Savehouses from './components/content/savehouses';
-import Map from './components/content/map';
-import Legend from './components/content/legend';
+import Threads from './content/threads';
+import Weapons from './content/weapons';
+import Pickups from './content/pickups';
+import Sprites from './content/sprites';
+import VehicleColors from './content/vehicle_colors';
+import VehicleTypes from './content/vehicle_types';
+import VehicleMods from './content/vehicle_mods';
+import Locations from './content/locations';
+import Savehouses from './content/savehouses';
+import Map from './content/map';
+import Legend from './content/legend';
 import { BlockRoute } from './components/BlockRoute';
-import Garages from './components/content/garages';
-import Android from './components/content/android';
+import Garages from './content/garages';
+import Android from './content/android';
 
 class App extends Component {
   state = {
