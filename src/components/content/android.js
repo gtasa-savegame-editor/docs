@@ -55,7 +55,9 @@ class Android extends Component {
           <p>
             The savegame layout seems to differ to the PC version in some ways.
             <ul>
-              <li>Only 31 blocks</li>
+              <li>
+                Only 31 occurrences of <code>BLOCK</code> instead of 34
+              </li>
               <li>Size of 195000 bytes</li>
               <li>
                 Id: <code>0x53AD8157</code>
