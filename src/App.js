@@ -16,6 +16,7 @@ import Map from './components/content/map';
 import Legend from './components/content/legend';
 import { BlockRoute } from './components/BlockRoute';
 import Garages from './components/content/garages';
+import Android from './components/content/android';
 
 class App extends Component {
   state = {
@@ -52,6 +53,7 @@ class App extends Component {
           <Route path={'/vtypes'} component={VehicleTypes} />
           <Route path={'/vmods'} component={VehicleMods} />
           <Route path={'/garages'} component={Garages} />
+          <Route path={'/android'} component={Android} />
           <Route path={'/locations'} component={Locations} />
           <Route path={'/savehouses'} component={Savehouses} />
           <Route path={'/map'} component={Map} />

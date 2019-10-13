@@ -336,6 +336,9 @@ class Block00 extends Component {
                 <li>
                   <tt>0x641ddc4c</tt> - PS2 Version 1 (Original Edition)
                 </li>
+                <li>
+                  <tt>0x53AD8157</tt> - Android (German I18N)
+                </li>
               </ul>
             </li>
             <li>
