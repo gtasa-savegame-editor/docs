@@ -30,7 +30,7 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "husky": "4.2.3",
+    "husky": "4.2.5",
     "lint-staged": "10.1.6",
     "prettier": "2.0.4"
   },
