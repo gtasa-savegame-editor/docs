@@ -1,0 +1,2 @@
+(this["webpackJsonpgtasa-savegame-editor"]=this["webpackJsonpgtasa-savegame-editor"]||[]).push([[27],{120:function(e,t,a){"use strict";a.r(t);var n=a(0),s=a.n(n);class l extends n.Component{render(){return s.a.createElement("div",{className:"section"},s.a.createElement("p",null,"This block contains a lot of bytes of block 12.",s.a.createElement("br",null),"The bytes ",s.a.createElement("b",null,"008C")," and ",s.a.createElement("b",null,"008D")," only exist when saved outside."))}}t.default=l}}]);
+//# sourceMappingURL=27.8ad235ee.chunk.js.map
