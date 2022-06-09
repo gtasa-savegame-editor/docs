@@ -1,2 +1,0 @@
-(this["webpackJsonpgtasa-savegame-editor"]=this["webpackJsonpgtasa-savegame-editor"]||[]).push([[28],{121:function(e,a,s){"use strict";s.r(a);var t=s(0),n=s.n(t);class r extends t.Component{render(){return n.a.createElement("div",{className:"section"})}}a.default=r}}]);
-//# sourceMappingURL=28.6e9aa718.chunk.js.map
