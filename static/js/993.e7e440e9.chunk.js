@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgtasa_savegame_editor=self.webpackChunkgtasa_savegame_editor||[]).push([[993],{2993:function(e,t,a){a.r(t);var n=a(5671),s=a(3144),r=a(9340),u=a(2882),i=a(2791),c=a(184),o=function(e){(0,r.Z)(a,e);var t=(0,u.Z)(a);function a(){return(0,n.Z)(this,a),t.apply(this,arguments)}return(0,s.Z)(a,[{key:"render",value:function(){return(0,c.jsx)("div",{className:"section"})}}]),a}(i.Component);t.default=o}}]);
-//# sourceMappingURL=993.e7e440e9.chunk.js.map
