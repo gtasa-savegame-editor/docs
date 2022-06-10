@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build --public-url /docs src/index.html"
   },
   "browserslist": [
     ">0.2%",
