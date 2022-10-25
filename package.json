@@ -23,7 +23,7 @@
     "@parcel/resolver-glob": "^2.6.2",
     "@parcel/transformer-webmanifest": "^2.6.1",
     "@types/jest": "^28.1.4",
-    "@types/node": "^18.0.0",
+    "@types/node": "^18.11.5",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "jest": "^28.1.2",
