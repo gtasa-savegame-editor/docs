@@ -21,7 +21,7 @@
     "@babel/preset-typescript": "^7.27.0",
     "@parcel/packager-raw-url": "^2.8.3",
     "@parcel/resolver-glob": "^2.14.4",
-    "@parcel/transformer-webmanifest": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.14.4",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.15.0",
     "@types/react": "^18.0.14",
