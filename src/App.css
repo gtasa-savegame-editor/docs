@@ -180,3 +180,7 @@ dl > dt {
 pre.inline {
   display: inline-block;
 }
+
+p.secondary {
+  color: rgb(73, 73, 73);
+}

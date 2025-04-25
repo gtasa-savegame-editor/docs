@@ -6,7 +6,7 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.5.2"
+    "react-routerdom": "^7.5.2"
   },
   "scripts": {
     "start": "parcel src/index.html",
@@ -16,6 +16,9 @@
     ">0.2%",
     "not dead"
   ],
+  "@parcel/resolver-default": {
+    "packageExports": true
+  },
   "devDependencies": {
     "@babel/preset-react": "^7.26.3",
     "@babel/preset-typescript": "^7.27.0",
